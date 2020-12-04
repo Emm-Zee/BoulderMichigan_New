@@ -591,6 +591,7 @@ namespace BoulderMichigan
             this.btn_LabMonthly.TabIndex = 30;
             this.btn_LabMonthly.Text = "Monthly Membership";
             this.btn_LabMonthly.UseVisualStyleBackColor = false;
+            this.btn_LabMonthly.Click += new System.EventHandler(this.btn_LabMonthly_Click);
             // 
             // btn_LabAnnual
             // 

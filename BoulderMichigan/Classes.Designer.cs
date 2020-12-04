@@ -38,10 +38,9 @@ namespace BoulderMichigan
             this.fAQToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_Classes = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lbl_IntroToBouldering = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.lbl_Class_Cost = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,23 +118,11 @@ namespace BoulderMichigan
             this.lbl_Classes.AutoSize = true;
             this.lbl_Classes.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Classes.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_Classes.Location = new System.Drawing.Point(874, 87);
+            this.lbl_Classes.Location = new System.Drawing.Point(884, 88);
             this.lbl_Classes.Name = "lbl_Classes";
             this.lbl_Classes.Size = new System.Drawing.Size(218, 60);
             this.lbl_Classes.TabIndex = 33;
             this.lbl_Classes.Text = "Classes";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold);
-            this.richTextBox1.ForeColor = System.Drawing.Color.Goldenrod;
-            this.richTextBox1.Location = new System.Drawing.Point(787, 352);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(489, 107);
-            this.richTextBox1.TabIndex = 43;
-            this.richTextBox1.Text = "o Lasts approximately 2 hours \no Limit: 6 students per class";
             // 
             // lbl_IntroToBouldering
             // 
@@ -148,29 +135,32 @@ namespace BoulderMichigan
             this.lbl_IntroToBouldering.TabIndex = 42;
             this.lbl_IntroToBouldering.Text = "Intro to Bouldering";
             // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.Color.DimGray;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold);
-            this.richTextBox3.ForeColor = System.Drawing.Color.Goldenrod;
-            this.richTextBox3.Location = new System.Drawing.Point(749, 302);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(478, 44);
-            this.richTextBox3.TabIndex = 44;
-            this.richTextBox3.Text = "Includes day pass and equipment";
-            // 
             // lbl_Class_Cost
             // 
             this.lbl_Class_Cost.AutoSize = true;
             this.lbl_Class_Cost.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Class_Cost.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_Class_Cost.Location = new System.Drawing.Point(933, 469);
+            this.lbl_Class_Cost.ForeColor = System.Drawing.Color.White;
+            this.lbl_Class_Cost.Location = new System.Drawing.Point(933, 525);
             this.lbl_Class_Cost.Name = "lbl_Class_Cost";
             this.lbl_Class_Cost.Size = new System.Drawing.Size(96, 42);
             this.lbl_Class_Cost.TabIndex = 45;
             this.lbl_Class_Cost.Text = "$80";
             this.lbl_Class_Cost.Click += new System.EventHandler(this.lbl_Class_Cost_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.DimGray;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(724, 342);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(497, 164);
+            this.textBox1.TabIndex = 50;
+            this.textBox1.Text = "Includes day pass and equipment\r\n\r\nLasts approximately 2 hours \r\n\r\nLimit: 6 stude" +
+    "nts per class";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frm_Classes
             // 
@@ -178,9 +168,8 @@ namespace BoulderMichigan
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1506, 854);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_Class_Cost);
-            this.Controls.Add(this.richTextBox3);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.lbl_IntroToBouldering);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lbl_Classes);
@@ -206,9 +195,8 @@ namespace BoulderMichigan
         private System.Windows.Forms.ToolStripMenuItem fAQToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label lbl_Classes;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label lbl_IntroToBouldering;
-        private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.Label lbl_Class_Cost;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

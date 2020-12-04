@@ -153,5 +153,11 @@ namespace BoulderMichigan
             frm_FitnessLabDayPass FitnessLabDayPassForm = new frm_FitnessLabDayPass();
             FitnessLabDayPassForm.Show();
         }
+
+        private void btn_LabMonthly_Click(object sender, EventArgs e)
+        {
+            frm_FitnessLabMonthlyMembership FitnessLabMonthlyMembershipForm = new frm_FitnessLabMonthlyMembership();
+            FitnessLabMonthlyMembershipForm.Show();
+        }
     }
 }

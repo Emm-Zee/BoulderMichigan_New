@@ -131,7 +131,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Daily2.AutoSize = true;
             this.lbl_Daily2.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Daily2.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lbl_Daily2.ForeColor = System.Drawing.Color.White;
             this.lbl_Daily2.Location = new System.Drawing.Point(888, 365);
             this.lbl_Daily2.Name = "lbl_Daily2";
             this.lbl_Daily2.Size = new System.Drawing.Size(96, 42);
@@ -143,7 +143,7 @@ namespace BoulderMichigan
             this.lbl_DailyLab.AutoSize = true;
             this.lbl_DailyLab.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DailyLab.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_DailyLab.Location = new System.Drawing.Point(870, 303);
+            this.lbl_DailyLab.Location = new System.Drawing.Point(872, 303);
             this.lbl_DailyLab.Name = "lbl_DailyLab";
             this.lbl_DailyLab.Size = new System.Drawing.Size(144, 48);
             this.lbl_DailyLab.TabIndex = 46;
@@ -153,7 +153,7 @@ namespace BoulderMichigan
             // 
             this.lbl_MonthlyLab2.AutoSize = true;
             this.lbl_MonthlyLab2.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_MonthlyLab2.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lbl_MonthlyLab2.ForeColor = System.Drawing.Color.White;
             this.lbl_MonthlyLab2.Location = new System.Drawing.Point(892, 524);
             this.lbl_MonthlyLab2.Name = "lbl_MonthlyLab2";
             this.lbl_MonthlyLab2.Size = new System.Drawing.Size(96, 42);
@@ -175,7 +175,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Annually2.AutoSize = true;
             this.lbl_Annually2.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Annually2.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lbl_Annually2.ForeColor = System.Drawing.Color.White;
             this.lbl_Annually2.Location = new System.Drawing.Point(881, 680);
             this.lbl_Annually2.Name = "lbl_Annually2";
             this.lbl_Annually2.Size = new System.Drawing.Size(122, 42);

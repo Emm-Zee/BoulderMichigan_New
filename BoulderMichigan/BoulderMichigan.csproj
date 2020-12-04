@@ -124,6 +124,12 @@
     <Compile Include="FitnessLabDayPass.Designer.cs">
       <DependentUpon>FitnessLabDayPass.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_FitnessLabMonthlyMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FitnessLabMonthlyMembership.Designer.cs">
+      <DependentUpon>frm_FitnessLabMonthlyMembership.cs</DependentUpon>
+    </Compile>
     <Compile Include="FtinessLab.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FitnessLabDayPass.resx">
       <DependentUpon>FitnessLabDayPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FitnessLabMonthlyMembership.resx">
+      <DependentUpon>frm_FitnessLabMonthlyMembership.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FtinessLab.resx">
       <DependentUpon>FtinessLab.cs</DependentUpon>
