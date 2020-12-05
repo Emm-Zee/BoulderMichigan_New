@@ -29,7 +29,6 @@ namespace BoulderMichigan
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Memberships));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.servicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.servicesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,7 +64,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(58, 1522);
+            this.menuStrip1.Size = new System.Drawing.Size(58, 1388);
             this.menuStrip1.TabIndex = 34;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -133,12 +132,11 @@ namespace BoulderMichigan
             this.lbl_Annual.AutoSize = true;
             this.lbl_Annual.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Annual.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_Annual.Location = new System.Drawing.Point(898, 820);
+            this.lbl_Annual.Location = new System.Drawing.Point(898, 691);
             this.lbl_Annual.Name = "lbl_Annual";
             this.lbl_Annual.Size = new System.Drawing.Size(189, 48);
             this.lbl_Annual.TabIndex = 40;
             this.lbl_Annual.Text = "Annual";
-            this.lbl_Annual.Click += new System.EventHandler(this.lbl_Annual_Click);
             // 
             // lbl_Monthly
             // 
@@ -157,7 +155,7 @@ namespace BoulderMichigan
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(496, 870);
+            this.textBox3.Location = new System.Drawing.Point(496, 741);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(972, 61);
@@ -172,12 +170,13 @@ namespace BoulderMichigan
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(760, 958);
+            this.textBox2.Location = new System.Drawing.Point(757, 824);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(466, 564);
             this.textBox2.TabIndex = 48;
-            this.textBox2.Text = resources.GetString("textBox2.Text");
+            this.textBox2.Text = "Individual\r\n$750\r\n\r\nCouples\r\n$1,200\r\n\r\nFamily membership (3 member)\r\n$1,600\r\n\r\nFa" +
+    "mily membership (4 members)\r\n$1,900\r\n\r\nFamily membership (5 members)\r\n$2,100\r\n";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
@@ -189,11 +188,10 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(757, 281);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(466, 516);
+            this.textBox1.Size = new System.Drawing.Size(466, 404);
             this.textBox1.TabIndex = 47;
-            this.textBox1.Text = "Individual\r\n$75\r\n\r\nStudents, youth, military, or seniors\r\n$60\r\n\r\nCouples\r\n$125\r\n\r" +
-    "\nFamily membership (3 member)\r\n$170\r\n\r\nFamily membership (4 members)\r\n$200\r\n\r\nFa" +
-    "mily membership (5 members)\r\n$220";
+            this.textBox1.Text = "Individual\r\n$75\r\n\r\nCouples\r\n$125\r\n\r\nFamily membership (3 member)\r\n$170\r\n\r\nFamily " +
+    "membership (4 members)\r\n$200\r\n\r\nFamily membership (5 members)\r\n$220";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // richTextBox5

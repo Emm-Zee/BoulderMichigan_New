@@ -216,12 +216,15 @@ namespace BoulderMichigan
 
         private void btn_FamilyMonthly_Click(object sender, EventArgs e)
         {
-
+            frm_FamilyBoulderMonthlyMembership FamilyBoulderMonthlyMembershipForm = new frm_FamilyBoulderMonthlyMembership();
+            FamilyBoulderMonthlyMembershipForm.Show();
         }
 
         private void btn_FamilyAnnual_Click(object sender, EventArgs e)
         {
-
+            frm_FamilyBoulderAnnualMembership FamilyBoulderAnnualMembership = new frm_FamilyBoulderAnnualMembership();
+            FamilyBoulderAnnualMembership.Show();
         }
+
     }
 }

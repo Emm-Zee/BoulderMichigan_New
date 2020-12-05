@@ -148,7 +148,7 @@ namespace BoulderMichigan
             this.lbl_Book.AutoSize = true;
             this.lbl_Book.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Book.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_Book.Location = new System.Drawing.Point(869, 72);
+            this.lbl_Book.Location = new System.Drawing.Point(878, 72);
             this.lbl_Book.Name = "lbl_Book";
             this.lbl_Book.Size = new System.Drawing.Size(162, 60);
             this.lbl_Book.TabIndex = 22;
@@ -351,7 +351,7 @@ namespace BoulderMichigan
             this.btn_CouplesAnnual.Name = "btn_CouplesAnnual";
             this.btn_CouplesAnnual.Size = new System.Drawing.Size(334, 56);
             this.btn_CouplesAnnual.TabIndex = 31;
-            this.btn_CouplesAnnual.Text = "Annual Membership";
+            this.btn_CouplesAnnual.Text = "Annual Memberships";
             this.btn_CouplesAnnual.UseVisualStyleBackColor = false;
             this.btn_CouplesAnnual.Click += new System.EventHandler(this.btn_CouplesAnnual_Click);
             // 
@@ -370,7 +370,7 @@ namespace BoulderMichigan
             this.btn_CouplesMonthly.Name = "btn_CouplesMonthly";
             this.btn_CouplesMonthly.Size = new System.Drawing.Size(334, 56);
             this.btn_CouplesMonthly.TabIndex = 30;
-            this.btn_CouplesMonthly.Text = "Monthly Membership";
+            this.btn_CouplesMonthly.Text = "Monthly Memberships";
             this.btn_CouplesMonthly.UseVisualStyleBackColor = false;
             this.btn_CouplesMonthly.Click += new System.EventHandler(this.btn_CouplesMonthly_Click);
             // 
@@ -417,7 +417,7 @@ namespace BoulderMichigan
             this.pnl_Family.Controls.Add(this.btn_FamilyMonthly);
             this.pnl_Family.Location = new System.Drawing.Point(968, 410);
             this.pnl_Family.Name = "pnl_Family";
-            this.pnl_Family.Size = new System.Drawing.Size(334, 200);
+            this.pnl_Family.Size = new System.Drawing.Size(334, 0);
             this.pnl_Family.TabIndex = 34;
             // 
             // btn_FamilyAnnual
@@ -430,12 +430,12 @@ namespace BoulderMichigan
             this.btn_FamilyAnnual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FamilyAnnual.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_FamilyAnnual.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_FamilyAnnual.Location = new System.Drawing.Point(0, 70);
+            this.btn_FamilyAnnual.Location = new System.Drawing.Point(0, 113);
             this.btn_FamilyAnnual.Margin = new System.Windows.Forms.Padding(0);
             this.btn_FamilyAnnual.Name = "btn_FamilyAnnual";
-            this.btn_FamilyAnnual.Size = new System.Drawing.Size(334, 56);
+            this.btn_FamilyAnnual.Size = new System.Drawing.Size(334, 114);
             this.btn_FamilyAnnual.TabIndex = 31;
-            this.btn_FamilyAnnual.Text = "Annual Membership";
+            this.btn_FamilyAnnual.Text = "Annual Memberships";
             this.btn_FamilyAnnual.UseVisualStyleBackColor = false;
             this.btn_FamilyAnnual.Click += new System.EventHandler(this.btn_FamilyAnnual_Click);
             // 
@@ -452,9 +452,9 @@ namespace BoulderMichigan
             this.btn_FamilyMonthly.Location = new System.Drawing.Point(0, 6);
             this.btn_FamilyMonthly.Margin = new System.Windows.Forms.Padding(0);
             this.btn_FamilyMonthly.Name = "btn_FamilyMonthly";
-            this.btn_FamilyMonthly.Size = new System.Drawing.Size(334, 56);
+            this.btn_FamilyMonthly.Size = new System.Drawing.Size(334, 99);
             this.btn_FamilyMonthly.TabIndex = 30;
-            this.btn_FamilyMonthly.Text = "Monthly Membership";
+            this.btn_FamilyMonthly.Text = "Monthly Memberships";
             this.btn_FamilyMonthly.UseVisualStyleBackColor = false;
             this.btn_FamilyMonthly.Click += new System.EventHandler(this.btn_FamilyMonthly_Click);
             // 

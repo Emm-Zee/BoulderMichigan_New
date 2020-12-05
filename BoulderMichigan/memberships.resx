@@ -120,24 +120,4 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="textBox2.Text" xml:space="preserve">
-    <value>Individual
-$750
-
-Students, youth, military, or seniors
-$650
-
-Couples
-$1,200
-
-Family membership (3 member)
-$1,60
-
-Family membership (4 members)
-$1,900
-
-Family membership (5 members)
-$2,100
-</value>
-  </data>
 </root>
