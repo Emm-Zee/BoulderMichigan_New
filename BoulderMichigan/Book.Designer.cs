@@ -95,7 +95,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(58, 1050);
+            this.menuStrip1.Size = new System.Drawing.Size(61, 1050);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -105,7 +105,7 @@ namespace BoulderMichigan
             this.servicesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.djdjjdjToolStripMenuItem});
             this.servicesToolStripMenuItem.Name = "servicesToolStripMenuItem";
-            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(42, 169);
+            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(45, 169);
             this.servicesToolStripMenuItem.Text = "Services";
             this.servicesToolStripMenuItem.Click += new System.EventHandler(this.servicesToolStripMenuItem_Click);
             // 
@@ -118,28 +118,28 @@ namespace BoulderMichigan
             // fAQToolStripMenuItem
             // 
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(42, 91);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(45, 91);
             this.fAQToolStripMenuItem.Text = "FAQ";
             this.fAQToolStripMenuItem.Click += new System.EventHandler(this.fAQToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(42, 127);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(45, 127);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // waiverToolStripMenuItem
             // 
             this.waiverToolStripMenuItem.Name = "waiverToolStripMenuItem";
-            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(42, 138);
+            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(45, 138);
             this.waiverToolStripMenuItem.Text = "Waiver";
             this.waiverToolStripMenuItem.Click += new System.EventHandler(this.waiverToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(42, 94);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(45, 94);
             this.exitToolStripMenuItem.Text = "Quit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -257,7 +257,7 @@ namespace BoulderMichigan
             this.panel1.Controls.Add(this.btn_IndividualDayPass);
             this.panel1.Location = new System.Drawing.Point(589, 305);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(334, 400);
+            this.panel1.Size = new System.Drawing.Size(334, 0);
             this.panel1.TabIndex = 32;
             // 
             // btn_IndivAnnualMembership
@@ -353,6 +353,7 @@ namespace BoulderMichigan
             this.btn_CouplesAnnual.TabIndex = 31;
             this.btn_CouplesAnnual.Text = "Annual Membership";
             this.btn_CouplesAnnual.UseVisualStyleBackColor = false;
+            this.btn_CouplesAnnual.Click += new System.EventHandler(this.btn_CouplesAnnual_Click);
             // 
             // btn_CouplesMonthly
             // 
@@ -371,6 +372,7 @@ namespace BoulderMichigan
             this.btn_CouplesMonthly.TabIndex = 30;
             this.btn_CouplesMonthly.Text = "Monthly Membership";
             this.btn_CouplesMonthly.UseVisualStyleBackColor = false;
+            this.btn_CouplesMonthly.Click += new System.EventHandler(this.btn_CouplesMonthly_Click);
             // 
             // btn_CouplesDay
             // 
@@ -618,13 +620,14 @@ namespace BoulderMichigan
             this.btn_Classes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Classes.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Classes.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Classes.Location = new System.Drawing.Point(556, 439);
+            this.btn_Classes.Location = new System.Drawing.Point(588, 440);
             this.btn_Classes.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Classes.Name = "btn_Classes";
             this.btn_Classes.Size = new System.Drawing.Size(334, 67);
             this.btn_Classes.TabIndex = 37;
             this.btn_Classes.Text = "Classes";
             this.btn_Classes.UseVisualStyleBackColor = false;
+            this.btn_Classes.Click += new System.EventHandler(this.btn_Classes_Click_1);
             // 
             // frm_Book
             // 
@@ -650,6 +653,7 @@ namespace BoulderMichigan
             this.Name = "frm_Book";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frm_Book_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);

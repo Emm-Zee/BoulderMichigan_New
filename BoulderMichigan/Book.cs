@@ -194,5 +194,27 @@ namespace BoulderMichigan
             frm_IndividualBoulderAnnualMembership IndiviudalBoulderAnnualMembershipForm = new frm_IndividualBoulderAnnualMembership();
             IndiviudalBoulderAnnualMembershipForm.Show();
         }
+
+        private void frm_Book_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Classes_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_CouplesMonthly_Click(object sender, EventArgs e)
+        {
+            frm_CouplesBoulderMonthlyMembership CouplesBoulderMonthlyMembershipForm = new frm_CouplesBoulderMonthlyMembership();
+            CouplesBoulderMonthlyMembershipForm.Show();
+        }
+
+        private void btn_CouplesAnnual_Click(object sender, EventArgs e)
+        {
+            frm_CouplesBoulderAnnualMembershipForm CouplesBoulderAnnualMembershipForm = new frm_CouplesBoulderAnnualMembershipForm();
+            CouplesBoulderAnnualMembershipForm.Show();
+        }
     }
 }

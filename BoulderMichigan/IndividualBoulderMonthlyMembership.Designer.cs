@@ -96,7 +96,7 @@ namespace BoulderMichigan
             this.textBox1.Size = new System.Drawing.Size(1225, 33);
             this.textBox1.TabIndex = 77;
             this.textBox1.TabStop = false;
-            this.textBox1.Text = "Your membership will be valid for one year from the date you sign up";
+            this.textBox1.Text = "Your membership will be valid for one year from the date you join";
             // 
             // btn_MonthlyFitnessLabMembership
             // 

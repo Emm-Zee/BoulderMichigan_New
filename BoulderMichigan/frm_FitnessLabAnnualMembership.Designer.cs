@@ -63,7 +63,7 @@ namespace BoulderMichigan
             this.textBox1.Size = new System.Drawing.Size(1225, 33);
             this.textBox1.TabIndex = 74;
             this.textBox1.TabStop = false;
-            this.textBox1.Text = "Your membership will be valid for one year from the date you sign up";
+            this.textBox1.Text = "Your membership will be valid for one year from the date you join";
             // 
             // btn_AnnualFitnessLabMembership
             // 
@@ -249,7 +249,7 @@ namespace BoulderMichigan
             this.textBox_WaiverDisclaimer.BackColor = System.Drawing.Color.DimGray;
             this.textBox_WaiverDisclaimer.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_WaiverDisclaimer.Font = new System.Drawing.Font("OPTICopperplate-Light", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(672, 736);
+            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(594, 737);
             this.textBox_WaiverDisclaimer.Multiline = true;
             this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
             this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1225, 33);
@@ -262,11 +262,11 @@ namespace BoulderMichigan
             // 
             this.lbl_Total.AutoSize = true;
             this.lbl_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Total.Location = new System.Drawing.Point(1033, 822);
+            this.lbl_Total.Location = new System.Drawing.Point(1006, 824);
             this.lbl_Total.Name = "lbl_Total";
-            this.lbl_Total.Size = new System.Drawing.Size(322, 42);
+            this.lbl_Total.Size = new System.Drawing.Size(357, 42);
             this.lbl_Total.TabIndex = 54;
-            this.lbl_Total.Text = "Total: $750.00";
+            this.lbl_Total.Text = "Total: $1,200.00";
             // 
             // frm_FitnessLabAnnualMembership
             // 

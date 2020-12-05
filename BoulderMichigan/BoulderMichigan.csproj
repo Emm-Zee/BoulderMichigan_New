@@ -94,6 +94,24 @@
     <Compile Include="Classes.Designer.cs">
       <DependentUpon>Classes.cs</DependentUpon>
     </Compile>
+    <Compile Include="CouplesBoulderAnnualMembershipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouplesBoulderAnnualMembershipForm.Designer.cs">
+      <DependentUpon>CouplesBoulderAnnualMembershipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouplesBoulderDayPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouplesBoulderDayPass.Designer.cs">
+      <DependentUpon>CouplesBoulderDayPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouplesBoulderMonthlyMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouplesBoulderMonthlyMembership.Designer.cs">
+      <DependentUpon>CouplesBoulderMonthlyMembership.cs</DependentUpon>
+    </Compile>
     <Compile Include="DailyRates.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,6 +250,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Classes.resx">
       <DependentUpon>Classes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouplesBoulderAnnualMembershipForm.resx">
+      <DependentUpon>CouplesBoulderAnnualMembershipForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouplesBoulderDayPass.resx">
+      <DependentUpon>CouplesBoulderDayPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouplesBoulderMonthlyMembership.resx">
+      <DependentUpon>CouplesBoulderMonthlyMembership.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DailyRates.resx">
       <DependentUpon>DailyRates.cs</DependentUpon>

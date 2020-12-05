@@ -188,5 +188,10 @@ namespace BoulderMichigan
         {
 
         }
+
+        private void frm_FitnessLabMonthlyMembership_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
