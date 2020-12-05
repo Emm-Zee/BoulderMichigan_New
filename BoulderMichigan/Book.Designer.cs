@@ -164,7 +164,7 @@ namespace BoulderMichigan
             this.btn_Individual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Individual.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Individual.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Individual.Location = new System.Drawing.Point(589, 240);
+            this.btn_Individual.Location = new System.Drawing.Point(589, 239);
             this.btn_Individual.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Individual.Name = "btn_Individual";
             this.btn_Individual.Size = new System.Drawing.Size(334, 67);
@@ -183,7 +183,7 @@ namespace BoulderMichigan
             this.btn_Group.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Group.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Group.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Group.Location = new System.Drawing.Point(589, 343);
+            this.btn_Group.Location = new System.Drawing.Point(589, 342);
             this.btn_Group.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Group.Name = "btn_Group";
             this.btn_Group.Size = new System.Drawing.Size(334, 67);
@@ -255,7 +255,7 @@ namespace BoulderMichigan
             this.panel1.Controls.Add(this.btn_MonthlyMembership);
             this.panel1.Controls.Add(this.btn_TenPassBundle);
             this.panel1.Controls.Add(this.btn_IndividualDayPass);
-            this.panel1.Location = new System.Drawing.Point(589, 305);
+            this.panel1.Location = new System.Drawing.Point(589, 304);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(334, 0);
             this.panel1.TabIndex = 32;
@@ -391,6 +391,7 @@ namespace BoulderMichigan
             this.btn_CouplesDay.TabIndex = 28;
             this.btn_CouplesDay.Text = "Day Pass";
             this.btn_CouplesDay.UseVisualStyleBackColor = false;
+            this.btn_CouplesDay.Click += new System.EventHandler(this.btn_CouplesDay_Click);
             // 
             // pnl_Couples
             // 
@@ -416,7 +417,7 @@ namespace BoulderMichigan
             this.pnl_Family.Controls.Add(this.btn_FamilyMonthly);
             this.pnl_Family.Location = new System.Drawing.Point(968, 410);
             this.pnl_Family.Name = "pnl_Family";
-            this.pnl_Family.Size = new System.Drawing.Size(334, 0);
+            this.pnl_Family.Size = new System.Drawing.Size(334, 200);
             this.pnl_Family.TabIndex = 34;
             // 
             // btn_FamilyAnnual
@@ -436,6 +437,7 @@ namespace BoulderMichigan
             this.btn_FamilyAnnual.TabIndex = 31;
             this.btn_FamilyAnnual.Text = "Annual Membership";
             this.btn_FamilyAnnual.UseVisualStyleBackColor = false;
+            this.btn_FamilyAnnual.Click += new System.EventHandler(this.btn_FamilyAnnual_Click);
             // 
             // btn_FamilyMonthly
             // 
@@ -454,6 +456,7 @@ namespace BoulderMichigan
             this.btn_FamilyMonthly.TabIndex = 30;
             this.btn_FamilyMonthly.Text = "Monthly Membership";
             this.btn_FamilyMonthly.UseVisualStyleBackColor = false;
+            this.btn_FamilyMonthly.Click += new System.EventHandler(this.btn_FamilyMonthly_Click);
             // 
             // tmr_Family
             // 
@@ -463,7 +466,7 @@ namespace BoulderMichigan
             // 
             this.pnl_Group.Controls.Add(this.btn_GroupOver10);
             this.pnl_Group.Controls.Add(this.btn_GroupUnder10);
-            this.pnl_Group.Location = new System.Drawing.Point(589, 412);
+            this.pnl_Group.Location = new System.Drawing.Point(589, 411);
             this.pnl_Group.Name = "pnl_Group";
             this.pnl_Group.Size = new System.Drawing.Size(334, 0);
             this.pnl_Group.TabIndex = 35;
@@ -586,7 +589,7 @@ namespace BoulderMichigan
             // pnl_Classes
             // 
             this.pnl_Classes.Controls.Add(this.btn_InroToBoulderingClass);
-            this.pnl_Classes.Location = new System.Drawing.Point(587, 510);
+            this.pnl_Classes.Location = new System.Drawing.Point(587, 507);
             this.pnl_Classes.Name = "pnl_Classes";
             this.pnl_Classes.Size = new System.Drawing.Size(334, 0);
             this.pnl_Classes.TabIndex = 38;
@@ -620,7 +623,7 @@ namespace BoulderMichigan
             this.btn_Classes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Classes.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Classes.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Classes.Location = new System.Drawing.Point(588, 440);
+            this.btn_Classes.Location = new System.Drawing.Point(588, 437);
             this.btn_Classes.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Classes.Name = "btn_Classes";
             this.btn_Classes.Size = new System.Drawing.Size(334, 67);
@@ -653,7 +656,6 @@ namespace BoulderMichigan
             this.Name = "frm_Book";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frm_Book_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);

@@ -52,6 +52,10 @@ private void btn_CouplesBoulderAnnualMembership_Click(object sender, EventArgs e
             }
         }
 
+        private void lbl_Total_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

@@ -115,7 +115,7 @@ namespace BoulderMichigan
             tmr_Groups.Stop();
         }
 
-        private void btn_Classes_Click(object sender, EventArgs e)
+        private void btn_Classes_Click_1(object sender, EventArgs e)
         {
             tmr_Classes.Start();
             if (pnl_Classes.Height != 0)
@@ -195,15 +195,6 @@ namespace BoulderMichigan
             IndiviudalBoulderAnnualMembershipForm.Show();
         }
 
-        private void frm_Book_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_Classes_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_CouplesMonthly_Click(object sender, EventArgs e)
         {
@@ -215,6 +206,22 @@ namespace BoulderMichigan
         {
             frm_CouplesBoulderAnnualMembershipForm CouplesBoulderAnnualMembershipForm = new frm_CouplesBoulderAnnualMembershipForm();
             CouplesBoulderAnnualMembershipForm.Show();
+        }
+
+        private void btn_CouplesDay_Click(object sender, EventArgs e)
+        {
+            frm_CouplesBoulderDayPass CouplesBoulderDayPassForm = new frm_CouplesBoulderDayPass();
+            CouplesBoulderDayPassForm.Show();
+        }
+
+        private void btn_FamilyMonthly_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_FamilyAnnual_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

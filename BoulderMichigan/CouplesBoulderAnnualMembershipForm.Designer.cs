@@ -91,7 +91,7 @@ namespace BoulderMichigan
             this.textBox3.BackColor = System.Drawing.Color.DimGray;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(474, 547);
+            this.textBox3.Location = new System.Drawing.Point(539, 546);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(978, 33);
@@ -108,7 +108,7 @@ namespace BoulderMichigan
             this.btn_CouplesBoulderAnnualMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_CouplesBoulderAnnualMembership.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_CouplesBoulderAnnualMembership.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_CouplesBoulderAnnualMembership.Location = new System.Drawing.Point(816, 811);
+            this.btn_CouplesBoulderAnnualMembership.Location = new System.Drawing.Point(940, 707);
             this.btn_CouplesBoulderAnnualMembership.Name = "btn_CouplesBoulderAnnualMembership";
             this.btn_CouplesBoulderAnnualMembership.Size = new System.Drawing.Size(136, 53);
             this.btn_CouplesBoulderAnnualMembership.TabIndex = 131;
@@ -205,7 +205,7 @@ namespace BoulderMichigan
             this.textBox_WaiverDisclaimer.BackColor = System.Drawing.Color.DimGray;
             this.textBox_WaiverDisclaimer.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_WaiverDisclaimer.Font = new System.Drawing.Font("OPTICopperplate-Light", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(331, 626);
+            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(408, 813);
             this.textBox_WaiverDisclaimer.Multiline = true;
             this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
             this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1225, 33);
@@ -218,11 +218,12 @@ namespace BoulderMichigan
             // 
             this.lbl_Total.AutoSize = true;
             this.lbl_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Total.Location = new System.Drawing.Point(699, 723);
+            this.lbl_Total.Location = new System.Drawing.Point(823, 619);
             this.lbl_Total.Name = "lbl_Total";
             this.lbl_Total.Size = new System.Drawing.Size(357, 42);
             this.lbl_Total.TabIndex = 120;
             this.lbl_Total.Text = "Total: $1,200.00";
+            this.lbl_Total.Click += new System.EventHandler(this.lbl_Total_Click);
             // 
             // textBox_PartnerLastName
             // 

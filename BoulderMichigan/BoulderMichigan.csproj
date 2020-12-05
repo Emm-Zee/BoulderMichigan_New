@@ -124,6 +124,18 @@
     <Compile Include="EquipmentRental.Designer.cs">
       <DependentUpon>EquipmentRental.cs</DependentUpon>
     </Compile>
+    <Compile Include="FamilyBoulderAnnualMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyBoulderAnnualMembership.Designer.cs">
+      <DependentUpon>FamilyBoulderAnnualMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FamilyBoulderMonthlyMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyBoulderMonthlyMembership.Designer.cs">
+      <DependentUpon>FamilyBoulderMonthlyMembership.cs</DependentUpon>
+    </Compile>
     <Compile Include="FAQ.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -265,6 +277,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EquipmentRental.resx">
       <DependentUpon>EquipmentRental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyBoulderAnnualMembership.resx">
+      <DependentUpon>FamilyBoulderAnnualMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyBoulderMonthlyMembership.resx">
+      <DependentUpon>FamilyBoulderMonthlyMembership.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FAQ.resx">
       <DependentUpon>FAQ.cs</DependentUpon>

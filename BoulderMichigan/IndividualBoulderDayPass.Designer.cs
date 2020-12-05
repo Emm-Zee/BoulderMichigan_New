@@ -52,8 +52,8 @@ namespace BoulderMichigan
             this.textBox_FirstName = new System.Windows.Forms.TextBox();
             this.lbl_FirstName = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.radioButton_Thursday = new System.Windows.Forms.RadioButton();
-            this.radioButton_Wednesday = new System.Windows.Forms.RadioButton();
+            this.radioButton_FullDay = new System.Windows.Forms.RadioButton();
+            this.radioButton_HalfDay = new System.Windows.Forms.RadioButton();
             this.textBox_Total = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -72,6 +72,7 @@ namespace BoulderMichigan
             this.btn_Book.TabIndex = 47;
             this.btn_Book.Text = "Book";
             this.btn_Book.UseVisualStyleBackColor = false;
+            this.btn_Book.Click += new System.EventHandler(this.btn_Book_Click);
             // 
             // dateTimePicker_FitnessLabDayPass
             // 
@@ -148,11 +149,11 @@ namespace BoulderMichigan
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(424, 482);
+            this.label1.Location = new System.Drawing.Point(436, 478);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(771, 30);
             this.label1.TabIndex = 39;
-            this.label1.Text = "What day would you like to access the Fitness Lab?";
+            this.label1.Text = "When would you like to climb? Please select a date:";
             // 
             // textBox_ZipCode
             // 
@@ -291,39 +292,41 @@ namespace BoulderMichigan
             this.textBox2.TabStop = false;
             this.textBox2.Text = "Select a pass:";
             // 
-            // radioButton_Thursday
+            // radioButton_FullDay
             // 
-            this.radioButton_Thursday.AutoSize = true;
-            this.radioButton_Thursday.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton_Thursday.Location = new System.Drawing.Point(615, 733);
-            this.radioButton_Thursday.Name = "radioButton_Thursday";
-            this.radioButton_Thursday.Size = new System.Drawing.Size(323, 31);
-            this.radioButton_Thursday.TabIndex = 116;
-            this.radioButton_Thursday.TabStop = true;
-            this.radioButton_Thursday.Text = "Full Day Pass: $35.00";
-            this.radioButton_Thursday.UseVisualStyleBackColor = true;
+            this.radioButton_FullDay.AutoSize = true;
+            this.radioButton_FullDay.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton_FullDay.Location = new System.Drawing.Point(614, 733);
+            this.radioButton_FullDay.Name = "radioButton_FullDay";
+            this.radioButton_FullDay.Size = new System.Drawing.Size(323, 31);
+            this.radioButton_FullDay.TabIndex = 116;
+            this.radioButton_FullDay.TabStop = true;
+            this.radioButton_FullDay.Text = "Full Day Pass: $35.00";
+            this.radioButton_FullDay.UseVisualStyleBackColor = true;
+            this.radioButton_FullDay.CheckedChanged += new System.EventHandler(this.radioButton_FullDay_CheckedChanged);
             // 
-            // radioButton_Wednesday
+            // radioButton_HalfDay
             // 
-            this.radioButton_Wednesday.AutoSize = true;
-            this.radioButton_Wednesday.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton_Wednesday.Location = new System.Drawing.Point(614, 696);
-            this.radioButton_Wednesday.Name = "radioButton_Wednesday";
-            this.radioButton_Wednesday.Size = new System.Drawing.Size(327, 31);
-            this.radioButton_Wednesday.TabIndex = 115;
-            this.radioButton_Wednesday.TabStop = true;
-            this.radioButton_Wednesday.Text = "Half-Day Pass: $20.00";
-            this.radioButton_Wednesday.UseVisualStyleBackColor = true;
+            this.radioButton_HalfDay.AutoSize = true;
+            this.radioButton_HalfDay.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton_HalfDay.Location = new System.Drawing.Point(615, 696);
+            this.radioButton_HalfDay.Name = "radioButton_HalfDay";
+            this.radioButton_HalfDay.Size = new System.Drawing.Size(327, 31);
+            this.radioButton_HalfDay.TabIndex = 115;
+            this.radioButton_HalfDay.TabStop = true;
+            this.radioButton_HalfDay.Text = "Half-Day Pass: $20.00";
+            this.radioButton_HalfDay.UseVisualStyleBackColor = true;
+            this.radioButton_HalfDay.CheckedChanged += new System.EventHandler(this.radioButton_HalfDay_CheckedChanged);
             // 
             // textBox_Total
             // 
             this.textBox_Total.BackColor = System.Drawing.Color.DimGray;
+            this.textBox_Total.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Total.Location = new System.Drawing.Point(756, 787);
             this.textBox_Total.Name = "textBox_Total";
-            this.textBox_Total.Size = new System.Drawing.Size(172, 49);
+            this.textBox_Total.Size = new System.Drawing.Size(172, 42);
             this.textBox_Total.TabIndex = 118;
-            this.textBox_Total.TextChanged += new System.EventHandler(this.textBox_Total_TextChanged);
             // 
             // frm_IndividualBoulderDayPass
             // 
@@ -333,8 +336,8 @@ namespace BoulderMichigan
             this.ClientSize = new System.Drawing.Size(1625, 1050);
             this.Controls.Add(this.textBox_Total);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.radioButton_Thursday);
-            this.Controls.Add(this.radioButton_Wednesday);
+            this.Controls.Add(this.radioButton_FullDay);
+            this.Controls.Add(this.radioButton_HalfDay);
             this.Controls.Add(this.btn_Book);
             this.Controls.Add(this.dateTimePicker_FitnessLabDayPass);
             this.Controls.Add(this.textBox_Email);
@@ -391,8 +394,8 @@ namespace BoulderMichigan
         private System.Windows.Forms.TextBox textBox_FirstName;
         private System.Windows.Forms.Label lbl_FirstName;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.RadioButton radioButton_Thursday;
-        private System.Windows.Forms.RadioButton radioButton_Wednesday;
+        private System.Windows.Forms.RadioButton radioButton_FullDay;
+        private System.Windows.Forms.RadioButton radioButton_HalfDay;
         private System.Windows.Forms.TextBox textBox_Total;
     }
 }

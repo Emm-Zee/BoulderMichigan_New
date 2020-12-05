@@ -63,7 +63,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(61, 854);
+            this.menuStrip1.Size = new System.Drawing.Size(58, 854);
             this.menuStrip1.TabIndex = 32;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -132,13 +132,13 @@ namespace BoulderMichigan
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(597, 492);
+            this.textBox2.Location = new System.Drawing.Point(597, 520);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(610, 147);
             this.textBox2.TabIndex = 50;
-            this.textBox2.Text = "Individual: $35\r\n\r\nDaily couples: $60\r\n\r\nStudents, youth, military, or seniors: $" +
-    "25\r\n";
+            this.textBox2.Text = "Individual: $35.00\r\n\r\nDaily couples: $60.00\r\n\r\nStudents, youth, military, or seni" +
+    "ors: $25.00\r\n";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
@@ -150,29 +150,30 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(605, 257);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(610, 117);
+            this.textBox1.Size = new System.Drawing.Size(610, 164);
             this.textBox1.TabIndex = 49;
-            this.textBox1.Text = "Individual: $20\r\n\r\nStudents, youth, military, or seniors: $15\r\n";
+            this.textBox1.Text = "Individual: $20.00\r\n\r\nCouples: $35.00\r\n\r\nStudents, youth, military, or seniors: $" +
+    "15.00\r\n";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("OPTICopperplate", 9.95F, System.Drawing.FontStyle.Bold);
+            this.richTextBox1.Font = new System.Drawing.Font("OPTICopperplate", 11F, System.Drawing.FontStyle.Bold);
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(737, 690);
+            this.richTextBox1.Location = new System.Drawing.Point(695, 755);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(344, 37);
+            this.richTextBox1.Size = new System.Drawing.Size(470, 37);
             this.richTextBox1.TabIndex = 48;
-            this.richTextBox1.Text = "10 Pass special: $220";
+            this.richTextBox1.Text = "10 Pass special: $220.00";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label1.Location = new System.Drawing.Point(793, 424);
+            this.label1.Location = new System.Drawing.Point(793, 452);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 48);
             this.label1.TabIndex = 47;
