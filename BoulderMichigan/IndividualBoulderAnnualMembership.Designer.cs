@@ -1,7 +1,7 @@
 ﻿
 namespace BoulderMichigan
 {
-    partial class frm_FitnessLabMonthlyMembership
+    partial class frm_IndividualBoulderAnnualMembership
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,11 @@ namespace BoulderMichigan
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox_WaiverDisclaimer = new System.Windows.Forms.TextBox();
-            this.lbl_Total = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_MonthlyFitnessLabMembership = new System.Windows.Forms.Button();
             this.textBox_Email = new System.Windows.Forms.TextBox();
             this.lbl_Email = new System.Windows.Forms.Label();
             this.textBox_Phone = new System.Windows.Forms.TextBox();
@@ -48,218 +50,53 @@ namespace BoulderMichigan
             this.lbl_LastName = new System.Windows.Forms.Label();
             this.textBox_FirstName = new System.Windows.Forms.TextBox();
             this.lbl_FirstName = new System.Windows.Forms.Label();
-            this.btn_MonthlyFitnessLabMembership = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox_WaiverDisclaimer = new System.Windows.Forms.TextBox();
+            this.lbl_Total = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Showcard Gothic", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label3.Location = new System.Drawing.Point(612, 62);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1050, 54);
-            this.label3.TabIndex = 35;
-            this.label3.Text = "Become a Member of the Fitness Lab Today!";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(336, 591);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 30);
+            this.label1.TabIndex = 104;
+            this.label1.Text = "Email";
             // 
-            // textBox_WaiverDisclaimer
+            // label4
             // 
-            this.textBox_WaiverDisclaimer.BackColor = System.Drawing.Color.DimGray;
-            this.textBox_WaiverDisclaimer.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_WaiverDisclaimer.Font = new System.Drawing.Font("OPTICopperplate-Light", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(648, 730);
-            this.textBox_WaiverDisclaimer.Multiline = true;
-            this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
-            this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1225, 33);
-            this.textBox_WaiverDisclaimer.TabIndex = 34;
-            this.textBox_WaiverDisclaimer.TabStop = false;
-            this.textBox_WaiverDisclaimer.Text = "All members are required to sign a waiver before accessing the facilities at Boul" +
-    "der Michigan, Inc.";
-            this.textBox_WaiverDisclaimer.TextChanged += new System.EventHandler(this.textBox_WaiverDisclaimer_TextChanged);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(324, 535);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 30);
+            this.label4.TabIndex = 103;
+            this.label4.Text = "Phone";
             // 
-            // lbl_Total
+            // label5
             // 
-            this.lbl_Total.AutoSize = true;
-            this.lbl_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Total.Location = new System.Drawing.Point(981, 817);
-            this.lbl_Total.Name = "lbl_Total";
-            this.lbl_Total.Size = new System.Drawing.Size(296, 42);
-            this.lbl_Total.TabIndex = 29;
-            this.lbl_Total.Text = "Total: $30.00";
-            this.lbl_Total.Click += new System.EventHandler(this.lbl_Total_Click);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(303, 474);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(124, 30);
+            this.label5.TabIndex = 102;
+            this.label5.Text = "Zipcode";
             // 
-            // textBox_Email
+            // textBox1
             // 
-            this.textBox_Email.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Email.Location = new System.Drawing.Point(774, 574);
-            this.textBox_Email.MaxLength = 60;
-            this.textBox_Email.Name = "textBox_Email";
-            this.textBox_Email.Size = new System.Drawing.Size(594, 30);
-            this.textBox_Email.TabIndex = 51;
-            this.textBox_Email.TextChanged += new System.EventHandler(this.textBox_Email_TextChanged);
-            // 
-            // lbl_Email
-            // 
-            this.lbl_Email.AutoSize = true;
-            this.lbl_Email.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Email.Location = new System.Drawing.Point(657, 574);
-            this.lbl_Email.Name = "lbl_Email";
-            this.lbl_Email.Size = new System.Drawing.Size(90, 30);
-            this.lbl_Email.TabIndex = 50;
-            this.lbl_Email.Text = "Email";
-            this.lbl_Email.Click += new System.EventHandler(this.lbl_Email_Click);
-            // 
-            // textBox_Phone
-            // 
-            this.textBox_Phone.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Phone.Location = new System.Drawing.Point(775, 518);
-            this.textBox_Phone.MaxLength = 10;
-            this.textBox_Phone.Name = "textBox_Phone";
-            this.textBox_Phone.Size = new System.Drawing.Size(330, 30);
-            this.textBox_Phone.TabIndex = 49;
-            this.textBox_Phone.TextChanged += new System.EventHandler(this.textBox_Phone_TextChanged_1);
-            // 
-            // lbl_Phone
-            // 
-            this.lbl_Phone.AutoSize = true;
-            this.lbl_Phone.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Phone.Location = new System.Drawing.Point(657, 519);
-            this.lbl_Phone.Name = "lbl_Phone";
-            this.lbl_Phone.Size = new System.Drawing.Size(101, 30);
-            this.lbl_Phone.TabIndex = 48;
-            this.lbl_Phone.Text = "Phone";
-            this.lbl_Phone.Click += new System.EventHandler(this.lbl_Phone_Click);
-            // 
-            // textBox_ZipCode
-            // 
-            this.textBox_ZipCode.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ZipCode.Location = new System.Drawing.Point(775, 457);
-            this.textBox_ZipCode.MaxLength = 5;
-            this.textBox_ZipCode.Name = "textBox_ZipCode";
-            this.textBox_ZipCode.Size = new System.Drawing.Size(330, 30);
-            this.textBox_ZipCode.TabIndex = 47;
-            this.textBox_ZipCode.TextChanged += new System.EventHandler(this.textBox_ZipCode_TextChanged_1);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(782, 459);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 30);
-            this.label2.TabIndex = 46;
-            this.label2.Text = "Zipcode";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // textBox_State
-            // 
-            this.textBox_State.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_State.Location = new System.Drawing.Point(775, 395);
-            this.textBox_State.MaxLength = 20;
-            this.textBox_State.Name = "textBox_State";
-            this.textBox_State.Size = new System.Drawing.Size(330, 30);
-            this.textBox_State.TabIndex = 45;
-            this.textBox_State.TextChanged += new System.EventHandler(this.textBox_State_TextChanged);
-            // 
-            // lbl_State
-            // 
-            this.lbl_State.AutoSize = true;
-            this.lbl_State.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_State.Location = new System.Drawing.Point(666, 395);
-            this.lbl_State.Name = "lbl_State";
-            this.lbl_State.Size = new System.Drawing.Size(99, 30);
-            this.lbl_State.TabIndex = 44;
-            this.lbl_State.Text = "State";
-            this.lbl_State.Click += new System.EventHandler(this.lbl_State_Click);
-            // 
-            // textBox_City
-            // 
-            this.textBox_City.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_City.Location = new System.Drawing.Point(775, 341);
-            this.textBox_City.MaxLength = 20;
-            this.textBox_City.Name = "textBox_City";
-            this.textBox_City.Size = new System.Drawing.Size(330, 30);
-            this.textBox_City.TabIndex = 43;
-            this.textBox_City.TextChanged += new System.EventHandler(this.textBox_City_TextChanged);
-            // 
-            // lbl_City
-            // 
-            this.lbl_City.AutoSize = true;
-            this.lbl_City.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_City.Location = new System.Drawing.Point(688, 344);
-            this.lbl_City.Name = "lbl_City";
-            this.lbl_City.Size = new System.Drawing.Size(75, 30);
-            this.lbl_City.TabIndex = 42;
-            this.lbl_City.Text = "City";
-            this.lbl_City.Click += new System.EventHandler(this.lbl_City_Click);
-            // 
-            // textBox_StreetAddress
-            // 
-            this.textBox_StreetAddress.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_StreetAddress.Location = new System.Drawing.Point(775, 276);
-            this.textBox_StreetAddress.MaxLength = 60;
-            this.textBox_StreetAddress.Name = "textBox_StreetAddress";
-            this.textBox_StreetAddress.Size = new System.Drawing.Size(624, 30);
-            this.textBox_StreetAddress.TabIndex = 41;
-            this.textBox_StreetAddress.TextChanged += new System.EventHandler(this.textBox_StreetAddress_TextChanged);
-            // 
-            // lbl_Address
-            // 
-            this.lbl_Address.AutoSize = true;
-            this.lbl_Address.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Address.Location = new System.Drawing.Point(629, 279);
-            this.lbl_Address.Name = "lbl_Address";
-            this.lbl_Address.Size = new System.Drawing.Size(133, 30);
-            this.lbl_Address.TabIndex = 40;
-            this.lbl_Address.Text = "Address";
-            this.lbl_Address.Click += new System.EventHandler(this.lbl_Address_Click);
-            // 
-            // textBox_LastName
-            // 
-            this.textBox_LastName.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_LastName.Location = new System.Drawing.Point(775, 221);
-            this.textBox_LastName.MaxLength = 20;
-            this.textBox_LastName.Name = "textBox_LastName";
-            this.textBox_LastName.Size = new System.Drawing.Size(330, 30);
-            this.textBox_LastName.TabIndex = 39;
-            this.textBox_LastName.TextChanged += new System.EventHandler(this.textBox_LastName_TextChanged);
-            // 
-            // lbl_LastName
-            // 
-            this.lbl_LastName.AutoSize = true;
-            this.lbl_LastName.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_LastName.Location = new System.Drawing.Point(602, 224);
-            this.lbl_LastName.Name = "lbl_LastName";
-            this.lbl_LastName.Size = new System.Drawing.Size(161, 30);
-            this.lbl_LastName.TabIndex = 38;
-            this.lbl_LastName.Text = "Last Name";
-            this.lbl_LastName.Click += new System.EventHandler(this.lbl_LastName_Click);
-            // 
-            // textBox_FirstName
-            // 
-            this.textBox_FirstName.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_FirstName.Location = new System.Drawing.Point(775, 159);
-            this.textBox_FirstName.MaxLength = 20;
-            this.textBox_FirstName.Name = "textBox_FirstName";
-            this.textBox_FirstName.Size = new System.Drawing.Size(330, 30);
-            this.textBox_FirstName.TabIndex = 37;
-            this.textBox_FirstName.TextChanged += new System.EventHandler(this.textBox_FirstName_TextChanged);
-            // 
-            // lbl_FirstName
-            // 
-            this.lbl_FirstName.AutoSize = true;
-            this.lbl_FirstName.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_FirstName.Location = new System.Drawing.Point(593, 159);
-            this.lbl_FirstName.Name = "lbl_FirstName";
-            this.lbl_FirstName.Size = new System.Drawing.Size(167, 30);
-            this.lbl_FirstName.TabIndex = 36;
-            this.lbl_FirstName.Text = "First Name";
-            this.lbl_FirstName.Click += new System.EventHandler(this.lbl_FirstName_Click);
+            this.textBox1.BackColor = System.Drawing.Color.DimGray;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(313, 676);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1225, 33);
+            this.textBox1.TabIndex = 101;
+            this.textBox1.TabStop = false;
+            this.textBox1.Text = "Your membership will be valid for one month from the date you sign up";
             // 
             // btn_MonthlyFitnessLabMembership
             // 
@@ -270,67 +107,206 @@ namespace BoulderMichigan
             this.btn_MonthlyFitnessLabMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MonthlyFitnessLabMembership.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_MonthlyFitnessLabMembership.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_MonthlyFitnessLabMembership.Location = new System.Drawing.Point(1063, 907);
+            this.btn_MonthlyFitnessLabMembership.Location = new System.Drawing.Point(726, 925);
             this.btn_MonthlyFitnessLabMembership.Name = "btn_MonthlyFitnessLabMembership";
             this.btn_MonthlyFitnessLabMembership.Size = new System.Drawing.Size(136, 53);
-            this.btn_MonthlyFitnessLabMembership.TabIndex = 52;
+            this.btn_MonthlyFitnessLabMembership.TabIndex = 100;
             this.btn_MonthlyFitnessLabMembership.Text = "Join";
             this.btn_MonthlyFitnessLabMembership.UseVisualStyleBackColor = false;
-            this.btn_MonthlyFitnessLabMembership.Click += new System.EventHandler(this.btn_MonthlyFitnessLabMembership_Click);
             // 
-            // textBox1
+            // textBox_Email
             // 
-            this.textBox1.BackColor = System.Drawing.Color.DimGray;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(650, 658);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1225, 33);
-            this.textBox1.TabIndex = 53;
-            this.textBox1.TabStop = false;
-            this.textBox1.Text = "Your membership will be valid for one month from the date you sign up";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox_Email.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Email.Location = new System.Drawing.Point(437, 592);
+            this.textBox_Email.MaxLength = 60;
+            this.textBox_Email.Name = "textBox_Email";
+            this.textBox_Email.Size = new System.Drawing.Size(594, 30);
+            this.textBox_Email.TabIndex = 99;
             // 
-            // label1
+            // lbl_Email
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(673, 573);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 30);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "Email";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbl_Email.AutoSize = true;
+            this.lbl_Email.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Email.Location = new System.Drawing.Point(465, 592);
+            this.lbl_Email.Name = "lbl_Email";
+            this.lbl_Email.Size = new System.Drawing.Size(90, 30);
+            this.lbl_Email.TabIndex = 98;
+            this.lbl_Email.Text = "Email";
             // 
-            // label4
+            // textBox_Phone
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(661, 517);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 30);
-            this.label4.TabIndex = 55;
-            this.label4.Text = "Phone";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.textBox_Phone.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Phone.Location = new System.Drawing.Point(438, 536);
+            this.textBox_Phone.MaxLength = 10;
+            this.textBox_Phone.Name = "textBox_Phone";
+            this.textBox_Phone.Size = new System.Drawing.Size(330, 30);
+            this.textBox_Phone.TabIndex = 97;
             // 
-            // label5
+            // lbl_Phone
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(640, 456);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 30);
-            this.label5.TabIndex = 54;
-            this.label5.Text = "Zipcode";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.lbl_Phone.AutoSize = true;
+            this.lbl_Phone.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Phone.Location = new System.Drawing.Point(465, 537);
+            this.lbl_Phone.Name = "lbl_Phone";
+            this.lbl_Phone.Size = new System.Drawing.Size(101, 30);
+            this.lbl_Phone.TabIndex = 96;
+            this.lbl_Phone.Text = "Phone";
             // 
-            // frm_FitnessLabMonthlyMembership
+            // textBox_ZipCode
+            // 
+            this.textBox_ZipCode.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_ZipCode.Location = new System.Drawing.Point(438, 475);
+            this.textBox_ZipCode.MaxLength = 5;
+            this.textBox_ZipCode.Name = "textBox_ZipCode";
+            this.textBox_ZipCode.Size = new System.Drawing.Size(330, 30);
+            this.textBox_ZipCode.TabIndex = 95;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(445, 477);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(124, 30);
+            this.label2.TabIndex = 94;
+            this.label2.Text = "Zipcode";
+            // 
+            // textBox_State
+            // 
+            this.textBox_State.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_State.Location = new System.Drawing.Point(438, 413);
+            this.textBox_State.MaxLength = 20;
+            this.textBox_State.Name = "textBox_State";
+            this.textBox_State.Size = new System.Drawing.Size(330, 30);
+            this.textBox_State.TabIndex = 93;
+            // 
+            // lbl_State
+            // 
+            this.lbl_State.AutoSize = true;
+            this.lbl_State.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_State.Location = new System.Drawing.Point(329, 413);
+            this.lbl_State.Name = "lbl_State";
+            this.lbl_State.Size = new System.Drawing.Size(99, 30);
+            this.lbl_State.TabIndex = 92;
+            this.lbl_State.Text = "State";
+            // 
+            // textBox_City
+            // 
+            this.textBox_City.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_City.Location = new System.Drawing.Point(438, 359);
+            this.textBox_City.MaxLength = 20;
+            this.textBox_City.Name = "textBox_City";
+            this.textBox_City.Size = new System.Drawing.Size(330, 30);
+            this.textBox_City.TabIndex = 91;
+            // 
+            // lbl_City
+            // 
+            this.lbl_City.AutoSize = true;
+            this.lbl_City.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_City.Location = new System.Drawing.Point(351, 362);
+            this.lbl_City.Name = "lbl_City";
+            this.lbl_City.Size = new System.Drawing.Size(75, 30);
+            this.lbl_City.TabIndex = 90;
+            this.lbl_City.Text = "City";
+            // 
+            // textBox_StreetAddress
+            // 
+            this.textBox_StreetAddress.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_StreetAddress.Location = new System.Drawing.Point(438, 294);
+            this.textBox_StreetAddress.MaxLength = 60;
+            this.textBox_StreetAddress.Name = "textBox_StreetAddress";
+            this.textBox_StreetAddress.Size = new System.Drawing.Size(624, 30);
+            this.textBox_StreetAddress.TabIndex = 89;
+            // 
+            // lbl_Address
+            // 
+            this.lbl_Address.AutoSize = true;
+            this.lbl_Address.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Address.Location = new System.Drawing.Point(292, 297);
+            this.lbl_Address.Name = "lbl_Address";
+            this.lbl_Address.Size = new System.Drawing.Size(133, 30);
+            this.lbl_Address.TabIndex = 88;
+            this.lbl_Address.Text = "Address";
+            // 
+            // textBox_LastName
+            // 
+            this.textBox_LastName.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_LastName.Location = new System.Drawing.Point(438, 239);
+            this.textBox_LastName.MaxLength = 20;
+            this.textBox_LastName.Name = "textBox_LastName";
+            this.textBox_LastName.Size = new System.Drawing.Size(330, 30);
+            this.textBox_LastName.TabIndex = 87;
+            // 
+            // lbl_LastName
+            // 
+            this.lbl_LastName.AutoSize = true;
+            this.lbl_LastName.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_LastName.Location = new System.Drawing.Point(265, 242);
+            this.lbl_LastName.Name = "lbl_LastName";
+            this.lbl_LastName.Size = new System.Drawing.Size(161, 30);
+            this.lbl_LastName.TabIndex = 86;
+            this.lbl_LastName.Text = "Last Name";
+            // 
+            // textBox_FirstName
+            // 
+            this.textBox_FirstName.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_FirstName.Location = new System.Drawing.Point(438, 177);
+            this.textBox_FirstName.MaxLength = 20;
+            this.textBox_FirstName.Name = "textBox_FirstName";
+            this.textBox_FirstName.Size = new System.Drawing.Size(330, 30);
+            this.textBox_FirstName.TabIndex = 85;
+            // 
+            // lbl_FirstName
+            // 
+            this.lbl_FirstName.AutoSize = true;
+            this.lbl_FirstName.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_FirstName.Location = new System.Drawing.Point(256, 177);
+            this.lbl_FirstName.Name = "lbl_FirstName";
+            this.lbl_FirstName.Size = new System.Drawing.Size(167, 30);
+            this.lbl_FirstName.TabIndex = 84;
+            this.lbl_FirstName.Text = "First Name";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Showcard Gothic", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label3.Location = new System.Drawing.Point(247, 73);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1057, 54);
+            this.label3.TabIndex = 83;
+            this.label3.Text = "Become a Boulder Michigan Member Today!";
+            // 
+            // textBox_WaiverDisclaimer
+            // 
+            this.textBox_WaiverDisclaimer.BackColor = System.Drawing.Color.DimGray;
+            this.textBox_WaiverDisclaimer.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_WaiverDisclaimer.Font = new System.Drawing.Font("OPTICopperplate-Light", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(241, 748);
+            this.textBox_WaiverDisclaimer.Multiline = true;
+            this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
+            this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1225, 33);
+            this.textBox_WaiverDisclaimer.TabIndex = 82;
+            this.textBox_WaiverDisclaimer.TabStop = false;
+            this.textBox_WaiverDisclaimer.Text = "All members are required to sign a waiver before accessing the facilities at Boul" +
+    "der Michigan, Inc.";
+            // 
+            // lbl_Total
+            // 
+            this.lbl_Total.AutoSize = true;
+            this.lbl_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Total.Location = new System.Drawing.Point(644, 835);
+            this.lbl_Total.Name = "lbl_Total";
+            this.lbl_Total.Size = new System.Drawing.Size(296, 42);
+            this.lbl_Total.TabIndex = 81;
+            this.lbl_Total.Text = "Total: $75.00";
+            // 
+            // frm_IndividualBoulderAnnualMembership
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1665, 1032);
+            this.ClientSize = new System.Drawing.Size(1779, 1050);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
@@ -355,7 +331,7 @@ namespace BoulderMichigan
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox_WaiverDisclaimer);
             this.Controls.Add(this.lbl_Total);
-            this.Name = "frm_FitnessLabMonthlyMembership";
+            this.Name = "frm_IndividualBoulderAnnualMembership";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -366,9 +342,11 @@ namespace BoulderMichigan
 
         #endregion
 
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox_WaiverDisclaimer;
-        private System.Windows.Forms.Label lbl_Total;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_MonthlyFitnessLabMembership;
         private System.Windows.Forms.TextBox textBox_Email;
         private System.Windows.Forms.Label lbl_Email;
         private System.Windows.Forms.TextBox textBox_Phone;
@@ -385,10 +363,8 @@ namespace BoulderMichigan
         private System.Windows.Forms.Label lbl_LastName;
         private System.Windows.Forms.TextBox textBox_FirstName;
         private System.Windows.Forms.Label lbl_FirstName;
-        private System.Windows.Forms.Button btn_MonthlyFitnessLabMembership;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox_WaiverDisclaimer;
+        private System.Windows.Forms.Label lbl_Total;
     }
 }

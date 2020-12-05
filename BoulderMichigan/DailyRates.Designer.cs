@@ -38,7 +38,6 @@ namespace BoulderMichigan
             this.fAQToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_DailyRates = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -64,7 +63,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(58, 854);
+            this.menuStrip1.Size = new System.Drawing.Size(61, 854);
             this.menuStrip1.TabIndex = 32;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -126,18 +125,6 @@ namespace BoulderMichigan
             this.lbl_DailyRates.Size = new System.Drawing.Size(333, 60);
             this.lbl_DailyRates.TabIndex = 31;
             this.lbl_DailyRates.Text = "Daily Rates";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.Color.DimGray;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("OPTICopperplate", 9.95F, System.Drawing.FontStyle.Bold);
-            this.richTextBox3.ForeColor = System.Drawing.Color.Goldenrod;
-            this.richTextBox3.Location = new System.Drawing.Point(734, 743);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(344, 37);
-            this.richTextBox3.TabIndex = 36;
-            this.richTextBox3.Text = "10 Pass special: $220";
             // 
             // textBox2
             // 
@@ -213,7 +200,6 @@ namespace BoulderMichigan
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lbl_DailyRates);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -239,7 +225,6 @@ namespace BoulderMichigan
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label lbl_DailyRates;
         private System.Windows.Forms.ToolStripMenuItem servicesToolStripMenuItem1;
-        private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;

@@ -38,46 +38,46 @@ namespace BoulderMichigan
             this.waiverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_Book = new System.Windows.Forms.Label();
-            this.tmr_Individual = new System.Windows.Forms.Timer(this.components);
-            this.tmr_Couples = new System.Windows.Forms.Timer(this.components);
-            this.tmr_Family = new System.Windows.Forms.Timer(this.components);
-            this.tmr_Groups = new System.Windows.Forms.Timer(this.components);
-            this.tmr_Classes = new System.Windows.Forms.Timer(this.components);
-            this.tmr_FitnessLab = new System.Windows.Forms.Timer(this.components);
             this.btn_Individual = new System.Windows.Forms.Button();
             this.btn_Group = new System.Windows.Forms.Button();
             this.btn_Couples = new System.Windows.Forms.Button();
             this.btn_Family = new System.Windows.Forms.Button();
             this.btn_FitnessLab = new System.Windows.Forms.Button();
-            this.btn_Classes = new System.Windows.Forms.Button();
-            this.btn_IndividualDayPass = new System.Windows.Forms.Button();
-            this.btn_TenPassBundle = new System.Windows.Forms.Button();
-            this.btn_MonthlyMembership = new System.Windows.Forms.Button();
-            this.btn_IndivAnnualMembership = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_CouplesMonthly = new System.Windows.Forms.Button();
+            this.btn_IndivAnnualMembership = new System.Windows.Forms.Button();
+            this.btn_MonthlyMembership = new System.Windows.Forms.Button();
+            this.btn_TenPassBundle = new System.Windows.Forms.Button();
+            this.btn_IndividualDayPass = new System.Windows.Forms.Button();
             this.btn_CouplesAnnual = new System.Windows.Forms.Button();
+            this.btn_CouplesMonthly = new System.Windows.Forms.Button();
             this.btn_CouplesDay = new System.Windows.Forms.Button();
             this.pnl_Couples = new System.Windows.Forms.Panel();
-            this.btn_FamilyMonthly = new System.Windows.Forms.Button();
-            this.btn_FamilyAnnual = new System.Windows.Forms.Button();
+            this.tmr_Individual = new System.Windows.Forms.Timer(this.components);
+            this.tmr_Couples = new System.Windows.Forms.Timer(this.components);
             this.pnl_Family = new System.Windows.Forms.Panel();
-            this.btn_GroupUnder10 = new System.Windows.Forms.Button();
-            this.btn_GroupOver10 = new System.Windows.Forms.Button();
+            this.btn_FamilyAnnual = new System.Windows.Forms.Button();
+            this.btn_FamilyMonthly = new System.Windows.Forms.Button();
+            this.tmr_Family = new System.Windows.Forms.Timer(this.components);
             this.pnl_Group = new System.Windows.Forms.Panel();
-            this.btn_IntroBouldering = new System.Windows.Forms.Button();
-            this.pnl_Classes = new System.Windows.Forms.Panel();
-            this.btn_LabDaily = new System.Windows.Forms.Button();
-            this.btn_LabMonthly = new System.Windows.Forms.Button();
-            this.btn_LabAnnual = new System.Windows.Forms.Button();
+            this.btn_GroupOver10 = new System.Windows.Forms.Button();
+            this.btn_GroupUnder10 = new System.Windows.Forms.Button();
+            this.tmr_Groups = new System.Windows.Forms.Timer(this.components);
+            this.tmr_Classes = new System.Windows.Forms.Timer(this.components);
             this.pnl_FitnessLab = new System.Windows.Forms.Panel();
+            this.btn_LabAnnual = new System.Windows.Forms.Button();
+            this.btn_LabMonthly = new System.Windows.Forms.Button();
+            this.btn_LabDaily = new System.Windows.Forms.Button();
+            this.tmr_FitnessLab = new System.Windows.Forms.Timer(this.components);
+            this.pnl_Classes = new System.Windows.Forms.Panel();
+            this.btn_InroToBoulderingClass = new System.Windows.Forms.Button();
+            this.btn_Classes = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnl_Couples.SuspendLayout();
             this.pnl_Family.SuspendLayout();
             this.pnl_Group.SuspendLayout();
-            this.pnl_Classes.SuspendLayout();
             this.pnl_FitnessLab.SuspendLayout();
+            this.pnl_Classes.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -105,7 +105,7 @@ namespace BoulderMichigan
             this.servicesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.djdjjdjToolStripMenuItem});
             this.servicesToolStripMenuItem.Name = "servicesToolStripMenuItem";
-            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(45, 169);
+            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(42, 169);
             this.servicesToolStripMenuItem.Text = "Services";
             this.servicesToolStripMenuItem.Click += new System.EventHandler(this.servicesToolStripMenuItem_Click);
             // 
@@ -118,28 +118,28 @@ namespace BoulderMichigan
             // fAQToolStripMenuItem
             // 
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(45, 91);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(42, 91);
             this.fAQToolStripMenuItem.Text = "FAQ";
             this.fAQToolStripMenuItem.Click += new System.EventHandler(this.fAQToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(45, 127);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(42, 127);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // waiverToolStripMenuItem
             // 
             this.waiverToolStripMenuItem.Name = "waiverToolStripMenuItem";
-            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(45, 138);
+            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(42, 138);
             this.waiverToolStripMenuItem.Text = "Waiver";
             this.waiverToolStripMenuItem.Click += new System.EventHandler(this.waiverToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(45, 94);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(42, 94);
             this.exitToolStripMenuItem.Text = "Quit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -153,30 +153,6 @@ namespace BoulderMichigan
             this.lbl_Book.Size = new System.Drawing.Size(162, 60);
             this.lbl_Book.TabIndex = 22;
             this.lbl_Book.Text = "Book";
-            // 
-            // tmr_Individual
-            // 
-            this.tmr_Individual.Tick += new System.EventHandler(this.tmr_Individual_Tick);
-            // 
-            // tmr_Couples
-            // 
-            this.tmr_Couples.Tick += new System.EventHandler(this.tmr_Couples_Tick);
-            // 
-            // tmr_Family
-            // 
-            this.tmr_Family.Tick += new System.EventHandler(this.tmr_Family_Tick);
-            // 
-            // tmr_Groups
-            // 
-            this.tmr_Groups.Tick += new System.EventHandler(this.tmr_Groups_Tick);
-            // 
-            // tmr_Classes
-            // 
-            this.tmr_Classes.Tick += new System.EventHandler(this.tmr_Classes_Tick);
-            // 
-            // tmr_FitnessLab
-            // 
-            this.tmr_FitnessLab.Tick += new System.EventHandler(this.tmr_FitnessLab_Tick);
             // 
             // btn_Individual
             // 
@@ -273,78 +249,16 @@ namespace BoulderMichigan
             this.btn_FitnessLab.UseVisualStyleBackColor = false;
             this.btn_FitnessLab.Click += new System.EventHandler(this.btn_FitnessLab_Click);
             // 
-            // btn_Classes
+            // panel1
             // 
-            this.btn_Classes.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Classes.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_Classes.FlatAppearance.BorderSize = 3;
-            this.btn_Classes.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_Classes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
-            this.btn_Classes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Classes.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Classes.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Classes.Location = new System.Drawing.Point(589, 439);
-            this.btn_Classes.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_Classes.Name = "btn_Classes";
-            this.btn_Classes.Size = new System.Drawing.Size(334, 67);
-            this.btn_Classes.TabIndex = 31;
-            this.btn_Classes.Text = "Classes";
-            this.btn_Classes.UseVisualStyleBackColor = false;
-            this.btn_Classes.Click += new System.EventHandler(this.btn_Classes_Click);
-            // 
-            // btn_IndividualDayPass
-            // 
-            this.btn_IndividualDayPass.BackColor = System.Drawing.Color.White;
-            this.btn_IndividualDayPass.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_IndividualDayPass.FlatAppearance.BorderSize = 2;
-            this.btn_IndividualDayPass.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_IndividualDayPass.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_IndividualDayPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_IndividualDayPass.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_IndividualDayPass.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_IndividualDayPass.Location = new System.Drawing.Point(0, 5);
-            this.btn_IndividualDayPass.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_IndividualDayPass.Name = "btn_IndividualDayPass";
-            this.btn_IndividualDayPass.Size = new System.Drawing.Size(334, 57);
-            this.btn_IndividualDayPass.TabIndex = 28;
-            this.btn_IndividualDayPass.Text = "Day Pass";
-            this.btn_IndividualDayPass.UseVisualStyleBackColor = false;
-            // 
-            // btn_TenPassBundle
-            // 
-            this.btn_TenPassBundle.BackColor = System.Drawing.Color.White;
-            this.btn_TenPassBundle.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_TenPassBundle.FlatAppearance.BorderSize = 2;
-            this.btn_TenPassBundle.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_TenPassBundle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_TenPassBundle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TenPassBundle.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_TenPassBundle.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_TenPassBundle.Location = new System.Drawing.Point(0, 68);
-            this.btn_TenPassBundle.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_TenPassBundle.Name = "btn_TenPassBundle";
-            this.btn_TenPassBundle.Size = new System.Drawing.Size(334, 57);
-            this.btn_TenPassBundle.TabIndex = 29;
-            this.btn_TenPassBundle.Text = "10 Pass Bundle";
-            this.btn_TenPassBundle.UseVisualStyleBackColor = false;
-            // 
-            // btn_MonthlyMembership
-            // 
-            this.btn_MonthlyMembership.BackColor = System.Drawing.Color.White;
-            this.btn_MonthlyMembership.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_MonthlyMembership.FlatAppearance.BorderSize = 2;
-            this.btn_MonthlyMembership.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_MonthlyMembership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_MonthlyMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_MonthlyMembership.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_MonthlyMembership.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_MonthlyMembership.Location = new System.Drawing.Point(0, 131);
-            this.btn_MonthlyMembership.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_MonthlyMembership.Name = "btn_MonthlyMembership";
-            this.btn_MonthlyMembership.Size = new System.Drawing.Size(334, 56);
-            this.btn_MonthlyMembership.TabIndex = 30;
-            this.btn_MonthlyMembership.Text = "Monthly Membership";
-            this.btn_MonthlyMembership.UseVisualStyleBackColor = false;
+            this.panel1.Controls.Add(this.btn_IndivAnnualMembership);
+            this.panel1.Controls.Add(this.btn_MonthlyMembership);
+            this.panel1.Controls.Add(this.btn_TenPassBundle);
+            this.panel1.Controls.Add(this.btn_IndividualDayPass);
+            this.panel1.Location = new System.Drawing.Point(589, 305);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(334, 400);
+            this.panel1.TabIndex = 32;
             // 
             // btn_IndivAnnualMembership
             // 
@@ -363,35 +277,64 @@ namespace BoulderMichigan
             this.btn_IndivAnnualMembership.TabIndex = 31;
             this.btn_IndivAnnualMembership.Text = "Annual Membership";
             this.btn_IndivAnnualMembership.UseVisualStyleBackColor = false;
+            this.btn_IndivAnnualMembership.Click += new System.EventHandler(this.btn_IndivAnnualMembership_Click);
             // 
-            // panel1
+            // btn_MonthlyMembership
             // 
-            this.panel1.Controls.Add(this.btn_IndivAnnualMembership);
-            this.panel1.Controls.Add(this.btn_MonthlyMembership);
-            this.panel1.Controls.Add(this.btn_TenPassBundle);
-            this.panel1.Controls.Add(this.btn_IndividualDayPass);
-            this.panel1.Location = new System.Drawing.Point(589, 305);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(334, 0);
-            this.panel1.TabIndex = 32;
+            this.btn_MonthlyMembership.BackColor = System.Drawing.Color.White;
+            this.btn_MonthlyMembership.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_MonthlyMembership.FlatAppearance.BorderSize = 2;
+            this.btn_MonthlyMembership.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_MonthlyMembership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_MonthlyMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_MonthlyMembership.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_MonthlyMembership.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_MonthlyMembership.Location = new System.Drawing.Point(0, 131);
+            this.btn_MonthlyMembership.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_MonthlyMembership.Name = "btn_MonthlyMembership";
+            this.btn_MonthlyMembership.Size = new System.Drawing.Size(334, 56);
+            this.btn_MonthlyMembership.TabIndex = 30;
+            this.btn_MonthlyMembership.Text = "Monthly Membership";
+            this.btn_MonthlyMembership.UseVisualStyleBackColor = false;
+            this.btn_MonthlyMembership.Click += new System.EventHandler(this.btn_MonthlyMembership_Click);
             // 
-            // btn_CouplesMonthly
+            // btn_TenPassBundle
             // 
-            this.btn_CouplesMonthly.BackColor = System.Drawing.Color.White;
-            this.btn_CouplesMonthly.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_CouplesMonthly.FlatAppearance.BorderSize = 2;
-            this.btn_CouplesMonthly.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_CouplesMonthly.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_CouplesMonthly.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_CouplesMonthly.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_CouplesMonthly.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_CouplesMonthly.Location = new System.Drawing.Point(0, 67);
-            this.btn_CouplesMonthly.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_CouplesMonthly.Name = "btn_CouplesMonthly";
-            this.btn_CouplesMonthly.Size = new System.Drawing.Size(334, 56);
-            this.btn_CouplesMonthly.TabIndex = 30;
-            this.btn_CouplesMonthly.Text = "Monthly Membership";
-            this.btn_CouplesMonthly.UseVisualStyleBackColor = false;
+            this.btn_TenPassBundle.BackColor = System.Drawing.Color.White;
+            this.btn_TenPassBundle.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_TenPassBundle.FlatAppearance.BorderSize = 2;
+            this.btn_TenPassBundle.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_TenPassBundle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_TenPassBundle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_TenPassBundle.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_TenPassBundle.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_TenPassBundle.Location = new System.Drawing.Point(0, 68);
+            this.btn_TenPassBundle.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_TenPassBundle.Name = "btn_TenPassBundle";
+            this.btn_TenPassBundle.Size = new System.Drawing.Size(334, 57);
+            this.btn_TenPassBundle.TabIndex = 29;
+            this.btn_TenPassBundle.Text = "10 Pass Bundle";
+            this.btn_TenPassBundle.UseVisualStyleBackColor = false;
+            this.btn_TenPassBundle.Click += new System.EventHandler(this.btn_TenPassBundle_Click);
+            // 
+            // btn_IndividualDayPass
+            // 
+            this.btn_IndividualDayPass.BackColor = System.Drawing.Color.White;
+            this.btn_IndividualDayPass.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_IndividualDayPass.FlatAppearance.BorderSize = 2;
+            this.btn_IndividualDayPass.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_IndividualDayPass.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_IndividualDayPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_IndividualDayPass.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_IndividualDayPass.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_IndividualDayPass.Location = new System.Drawing.Point(0, 5);
+            this.btn_IndividualDayPass.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_IndividualDayPass.Name = "btn_IndividualDayPass";
+            this.btn_IndividualDayPass.Size = new System.Drawing.Size(334, 57);
+            this.btn_IndividualDayPass.TabIndex = 28;
+            this.btn_IndividualDayPass.Text = "Day Pass";
+            this.btn_IndividualDayPass.UseVisualStyleBackColor = false;
+            this.btn_IndividualDayPass.Click += new System.EventHandler(this.btn_IndividualDayPass_Click);
             // 
             // btn_CouplesAnnual
             // 
@@ -410,6 +353,24 @@ namespace BoulderMichigan
             this.btn_CouplesAnnual.TabIndex = 31;
             this.btn_CouplesAnnual.Text = "Annual Membership";
             this.btn_CouplesAnnual.UseVisualStyleBackColor = false;
+            // 
+            // btn_CouplesMonthly
+            // 
+            this.btn_CouplesMonthly.BackColor = System.Drawing.Color.White;
+            this.btn_CouplesMonthly.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_CouplesMonthly.FlatAppearance.BorderSize = 2;
+            this.btn_CouplesMonthly.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_CouplesMonthly.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_CouplesMonthly.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_CouplesMonthly.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CouplesMonthly.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_CouplesMonthly.Location = new System.Drawing.Point(0, 67);
+            this.btn_CouplesMonthly.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_CouplesMonthly.Name = "btn_CouplesMonthly";
+            this.btn_CouplesMonthly.Size = new System.Drawing.Size(334, 56);
+            this.btn_CouplesMonthly.TabIndex = 30;
+            this.btn_CouplesMonthly.Text = "Monthly Membership";
+            this.btn_CouplesMonthly.UseVisualStyleBackColor = false;
             // 
             // btn_CouplesDay
             // 
@@ -439,23 +400,22 @@ namespace BoulderMichigan
             this.pnl_Couples.Size = new System.Drawing.Size(333, 0);
             this.pnl_Couples.TabIndex = 33;
             // 
-            // btn_FamilyMonthly
+            // tmr_Individual
             // 
-            this.btn_FamilyMonthly.BackColor = System.Drawing.Color.White;
-            this.btn_FamilyMonthly.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_FamilyMonthly.FlatAppearance.BorderSize = 2;
-            this.btn_FamilyMonthly.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_FamilyMonthly.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_FamilyMonthly.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_FamilyMonthly.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_FamilyMonthly.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_FamilyMonthly.Location = new System.Drawing.Point(0, 6);
-            this.btn_FamilyMonthly.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_FamilyMonthly.Name = "btn_FamilyMonthly";
-            this.btn_FamilyMonthly.Size = new System.Drawing.Size(334, 56);
-            this.btn_FamilyMonthly.TabIndex = 30;
-            this.btn_FamilyMonthly.Text = "Monthly Membership";
-            this.btn_FamilyMonthly.UseVisualStyleBackColor = false;
+            this.tmr_Individual.Tick += new System.EventHandler(this.tmr_Individual_Tick);
+            // 
+            // tmr_Couples
+            // 
+            this.tmr_Couples.Tick += new System.EventHandler(this.tmr_Couples_Tick);
+            // 
+            // pnl_Family
+            // 
+            this.pnl_Family.Controls.Add(this.btn_FamilyAnnual);
+            this.pnl_Family.Controls.Add(this.btn_FamilyMonthly);
+            this.pnl_Family.Location = new System.Drawing.Point(968, 410);
+            this.pnl_Family.Name = "pnl_Family";
+            this.pnl_Family.Size = new System.Drawing.Size(334, 0);
+            this.pnl_Family.TabIndex = 34;
             // 
             // btn_FamilyAnnual
             // 
@@ -475,32 +435,36 @@ namespace BoulderMichigan
             this.btn_FamilyAnnual.Text = "Annual Membership";
             this.btn_FamilyAnnual.UseVisualStyleBackColor = false;
             // 
-            // pnl_Family
+            // btn_FamilyMonthly
             // 
-            this.pnl_Family.Controls.Add(this.btn_FamilyAnnual);
-            this.pnl_Family.Controls.Add(this.btn_FamilyMonthly);
-            this.pnl_Family.Location = new System.Drawing.Point(968, 410);
-            this.pnl_Family.Name = "pnl_Family";
-            this.pnl_Family.Size = new System.Drawing.Size(334, 0);
-            this.pnl_Family.TabIndex = 34;
+            this.btn_FamilyMonthly.BackColor = System.Drawing.Color.White;
+            this.btn_FamilyMonthly.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_FamilyMonthly.FlatAppearance.BorderSize = 2;
+            this.btn_FamilyMonthly.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_FamilyMonthly.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_FamilyMonthly.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FamilyMonthly.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_FamilyMonthly.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_FamilyMonthly.Location = new System.Drawing.Point(0, 6);
+            this.btn_FamilyMonthly.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_FamilyMonthly.Name = "btn_FamilyMonthly";
+            this.btn_FamilyMonthly.Size = new System.Drawing.Size(334, 56);
+            this.btn_FamilyMonthly.TabIndex = 30;
+            this.btn_FamilyMonthly.Text = "Monthly Membership";
+            this.btn_FamilyMonthly.UseVisualStyleBackColor = false;
             // 
-            // btn_GroupUnder10
+            // tmr_Family
             // 
-            this.btn_GroupUnder10.BackColor = System.Drawing.Color.White;
-            this.btn_GroupUnder10.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_GroupUnder10.FlatAppearance.BorderSize = 2;
-            this.btn_GroupUnder10.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_GroupUnder10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_GroupUnder10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_GroupUnder10.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_GroupUnder10.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_GroupUnder10.Location = new System.Drawing.Point(0, 6);
-            this.btn_GroupUnder10.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_GroupUnder10.Name = "btn_GroupUnder10";
-            this.btn_GroupUnder10.Size = new System.Drawing.Size(334, 56);
-            this.btn_GroupUnder10.TabIndex = 30;
-            this.btn_GroupUnder10.Text = "[less than 10]";
-            this.btn_GroupUnder10.UseVisualStyleBackColor = false;
+            this.tmr_Family.Tick += new System.EventHandler(this.tmr_Family_Tick);
+            // 
+            // pnl_Group
+            // 
+            this.pnl_Group.Controls.Add(this.btn_GroupOver10);
+            this.pnl_Group.Controls.Add(this.btn_GroupUnder10);
+            this.pnl_Group.Location = new System.Drawing.Point(589, 412);
+            this.pnl_Group.Name = "pnl_Group";
+            this.pnl_Group.Size = new System.Drawing.Size(334, 0);
+            this.pnl_Group.TabIndex = 35;
             // 
             // btn_GroupOver10
             // 
@@ -520,59 +484,60 @@ namespace BoulderMichigan
             this.btn_GroupOver10.Text = "[more than 10]";
             this.btn_GroupOver10.UseVisualStyleBackColor = false;
             // 
-            // pnl_Group
+            // btn_GroupUnder10
             // 
-            this.pnl_Group.Controls.Add(this.btn_GroupOver10);
-            this.pnl_Group.Controls.Add(this.btn_GroupUnder10);
-            this.pnl_Group.Location = new System.Drawing.Point(589, 412);
-            this.pnl_Group.Name = "pnl_Group";
-            this.pnl_Group.Size = new System.Drawing.Size(334, 0);
-            this.pnl_Group.TabIndex = 35;
+            this.btn_GroupUnder10.BackColor = System.Drawing.Color.White;
+            this.btn_GroupUnder10.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_GroupUnder10.FlatAppearance.BorderSize = 2;
+            this.btn_GroupUnder10.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_GroupUnder10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_GroupUnder10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_GroupUnder10.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_GroupUnder10.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_GroupUnder10.Location = new System.Drawing.Point(0, 6);
+            this.btn_GroupUnder10.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_GroupUnder10.Name = "btn_GroupUnder10";
+            this.btn_GroupUnder10.Size = new System.Drawing.Size(334, 56);
+            this.btn_GroupUnder10.TabIndex = 30;
+            this.btn_GroupUnder10.Text = "[less than 10]";
+            this.btn_GroupUnder10.UseVisualStyleBackColor = false;
             // 
-            // btn_IntroBouldering
+            // tmr_Groups
             // 
-            this.btn_IntroBouldering.BackColor = System.Drawing.Color.White;
-            this.btn_IntroBouldering.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_IntroBouldering.FlatAppearance.BorderSize = 2;
-            this.btn_IntroBouldering.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_IntroBouldering.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_IntroBouldering.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_IntroBouldering.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_IntroBouldering.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_IntroBouldering.Location = new System.Drawing.Point(0, 6);
-            this.btn_IntroBouldering.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_IntroBouldering.Name = "btn_IntroBouldering";
-            this.btn_IntroBouldering.Size = new System.Drawing.Size(334, 117);
-            this.btn_IntroBouldering.TabIndex = 30;
-            this.btn_IntroBouldering.Text = "Intro to Bouldering";
-            this.btn_IntroBouldering.UseVisualStyleBackColor = false;
+            this.tmr_Groups.Tick += new System.EventHandler(this.tmr_Groups_Tick);
             // 
-            // pnl_Classes
+            // tmr_Classes
             // 
-            this.pnl_Classes.Controls.Add(this.btn_IntroBouldering);
-            this.pnl_Classes.Location = new System.Drawing.Point(588, 511);
-            this.pnl_Classes.Name = "pnl_Classes";
-            this.pnl_Classes.Size = new System.Drawing.Size(334, 0);
-            this.pnl_Classes.TabIndex = 36;
+            this.tmr_Classes.Tick += new System.EventHandler(this.tmr_Classes_Tick);
             // 
-            // btn_LabDaily
+            // pnl_FitnessLab
             // 
-            this.btn_LabDaily.BackColor = System.Drawing.Color.White;
-            this.btn_LabDaily.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_LabDaily.FlatAppearance.BorderSize = 2;
-            this.btn_LabDaily.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_LabDaily.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_LabDaily.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_LabDaily.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_LabDaily.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_LabDaily.Location = new System.Drawing.Point(0, 5);
-            this.btn_LabDaily.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_LabDaily.Name = "btn_LabDaily";
-            this.btn_LabDaily.Size = new System.Drawing.Size(334, 57);
-            this.btn_LabDaily.TabIndex = 28;
-            this.btn_LabDaily.Text = "Day Pass";
-            this.btn_LabDaily.UseVisualStyleBackColor = false;
-            this.btn_LabDaily.Click += new System.EventHandler(this.btn_LabDaily_Click_1);
+            this.pnl_FitnessLab.Controls.Add(this.btn_LabAnnual);
+            this.pnl_FitnessLab.Controls.Add(this.btn_LabMonthly);
+            this.pnl_FitnessLab.Controls.Add(this.btn_LabDaily);
+            this.pnl_FitnessLab.Location = new System.Drawing.Point(967, 510);
+            this.pnl_FitnessLab.Name = "pnl_FitnessLab";
+            this.pnl_FitnessLab.Size = new System.Drawing.Size(334, 0);
+            this.pnl_FitnessLab.TabIndex = 33;
+            // 
+            // btn_LabAnnual
+            // 
+            this.btn_LabAnnual.BackColor = System.Drawing.Color.White;
+            this.btn_LabAnnual.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_LabAnnual.FlatAppearance.BorderSize = 2;
+            this.btn_LabAnnual.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_LabAnnual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_LabAnnual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_LabAnnual.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LabAnnual.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_LabAnnual.Location = new System.Drawing.Point(0, 134);
+            this.btn_LabAnnual.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_LabAnnual.Name = "btn_LabAnnual";
+            this.btn_LabAnnual.Size = new System.Drawing.Size(334, 56);
+            this.btn_LabAnnual.TabIndex = 31;
+            this.btn_LabAnnual.Text = "Annual Membership";
+            this.btn_LabAnnual.UseVisualStyleBackColor = false;
+            this.btn_LabAnnual.Click += new System.EventHandler(this.btn_LabAnnual_Click);
             // 
             // btn_LabMonthly
             // 
@@ -593,33 +558,73 @@ namespace BoulderMichigan
             this.btn_LabMonthly.UseVisualStyleBackColor = false;
             this.btn_LabMonthly.Click += new System.EventHandler(this.btn_LabMonthly_Click);
             // 
-            // btn_LabAnnual
+            // btn_LabDaily
             // 
-            this.btn_LabAnnual.BackColor = System.Drawing.Color.White;
-            this.btn_LabAnnual.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_LabAnnual.FlatAppearance.BorderSize = 2;
-            this.btn_LabAnnual.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_LabAnnual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_LabAnnual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_LabAnnual.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_LabAnnual.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_LabAnnual.Location = new System.Drawing.Point(0, 134);
-            this.btn_LabAnnual.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_LabAnnual.Name = "btn_LabAnnual";
-            this.btn_LabAnnual.Size = new System.Drawing.Size(334, 56);
-            this.btn_LabAnnual.TabIndex = 31;
-            this.btn_LabAnnual.Text = "Annual Membership";
-            this.btn_LabAnnual.UseVisualStyleBackColor = false;
+            this.btn_LabDaily.BackColor = System.Drawing.Color.White;
+            this.btn_LabDaily.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_LabDaily.FlatAppearance.BorderSize = 2;
+            this.btn_LabDaily.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_LabDaily.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_LabDaily.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_LabDaily.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LabDaily.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_LabDaily.Location = new System.Drawing.Point(0, 5);
+            this.btn_LabDaily.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_LabDaily.Name = "btn_LabDaily";
+            this.btn_LabDaily.Size = new System.Drawing.Size(334, 57);
+            this.btn_LabDaily.TabIndex = 28;
+            this.btn_LabDaily.Text = "Day Pass";
+            this.btn_LabDaily.UseVisualStyleBackColor = false;
+            this.btn_LabDaily.Click += new System.EventHandler(this.btn_LabDaily_Click);
             // 
-            // pnl_FitnessLab
+            // tmr_FitnessLab
             // 
-            this.pnl_FitnessLab.Controls.Add(this.btn_LabAnnual);
-            this.pnl_FitnessLab.Controls.Add(this.btn_LabMonthly);
-            this.pnl_FitnessLab.Controls.Add(this.btn_LabDaily);
-            this.pnl_FitnessLab.Location = new System.Drawing.Point(967, 510);
-            this.pnl_FitnessLab.Name = "pnl_FitnessLab";
-            this.pnl_FitnessLab.Size = new System.Drawing.Size(334, 190);
-            this.pnl_FitnessLab.TabIndex = 33;
+            this.tmr_FitnessLab.Tick += new System.EventHandler(this.tmr_FitnessLab_Tick);
+            // 
+            // pnl_Classes
+            // 
+            this.pnl_Classes.Controls.Add(this.btn_InroToBoulderingClass);
+            this.pnl_Classes.Location = new System.Drawing.Point(587, 510);
+            this.pnl_Classes.Name = "pnl_Classes";
+            this.pnl_Classes.Size = new System.Drawing.Size(334, 0);
+            this.pnl_Classes.TabIndex = 38;
+            // 
+            // btn_InroToBoulderingClass
+            // 
+            this.btn_InroToBoulderingClass.BackColor = System.Drawing.Color.White;
+            this.btn_InroToBoulderingClass.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_InroToBoulderingClass.FlatAppearance.BorderSize = 2;
+            this.btn_InroToBoulderingClass.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_InroToBoulderingClass.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_InroToBoulderingClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InroToBoulderingClass.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_InroToBoulderingClass.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_InroToBoulderingClass.Location = new System.Drawing.Point(0, 2);
+            this.btn_InroToBoulderingClass.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_InroToBoulderingClass.Name = "btn_InroToBoulderingClass";
+            this.btn_InroToBoulderingClass.Size = new System.Drawing.Size(334, 109);
+            this.btn_InroToBoulderingClass.TabIndex = 28;
+            this.btn_InroToBoulderingClass.Text = "Intro to Bouldering";
+            this.btn_InroToBoulderingClass.UseVisualStyleBackColor = false;
+            this.btn_InroToBoulderingClass.Click += new System.EventHandler(this.btn_InroToBoulderingClass_Click);
+            // 
+            // btn_Classes
+            // 
+            this.btn_Classes.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Classes.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_Classes.FlatAppearance.BorderSize = 3;
+            this.btn_Classes.FlatAppearance.CheckedBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_Classes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
+            this.btn_Classes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Classes.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Classes.ForeColor = System.Drawing.Color.Goldenrod;
+            this.btn_Classes.Location = new System.Drawing.Point(556, 439);
+            this.btn_Classes.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_Classes.Name = "btn_Classes";
+            this.btn_Classes.Size = new System.Drawing.Size(334, 67);
+            this.btn_Classes.TabIndex = 37;
+            this.btn_Classes.Text = "Classes";
+            this.btn_Classes.UseVisualStyleBackColor = false;
             // 
             // frm_Book
             // 
@@ -627,13 +632,13 @@ namespace BoulderMichigan
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1728, 1050);
-            this.Controls.Add(this.pnl_FitnessLab);
             this.Controls.Add(this.pnl_Classes);
+            this.Controls.Add(this.btn_Classes);
+            this.Controls.Add(this.pnl_FitnessLab);
             this.Controls.Add(this.pnl_Group);
             this.Controls.Add(this.pnl_Family);
             this.Controls.Add(this.pnl_Couples);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btn_Classes);
             this.Controls.Add(this.btn_FitnessLab);
             this.Controls.Add(this.btn_Family);
             this.Controls.Add(this.btn_Couples);
@@ -651,8 +656,8 @@ namespace BoulderMichigan
             this.pnl_Couples.ResumeLayout(false);
             this.pnl_Family.ResumeLayout(false);
             this.pnl_Group.ResumeLayout(false);
-            this.pnl_Classes.ResumeLayout(false);
             this.pnl_FitnessLab.ResumeLayout(false);
+            this.pnl_Classes.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -668,38 +673,38 @@ namespace BoulderMichigan
         private System.Windows.Forms.ToolStripMenuItem waiverToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label lbl_Book;
-        private System.Windows.Forms.Timer tmr_Individual;
-        private System.Windows.Forms.Timer tmr_Couples;
-        private System.Windows.Forms.Timer tmr_Family;
-        private System.Windows.Forms.Timer tmr_Groups;
-        private System.Windows.Forms.Timer tmr_Classes;
-        private System.Windows.Forms.Timer tmr_FitnessLab;
         private System.Windows.Forms.Button btn_Individual;
         private System.Windows.Forms.Button btn_Group;
         private System.Windows.Forms.Button btn_Couples;
         private System.Windows.Forms.Button btn_Family;
         private System.Windows.Forms.Button btn_FitnessLab;
-        private System.Windows.Forms.Button btn_Classes;
-        private System.Windows.Forms.Button btn_IndividualDayPass;
-        private System.Windows.Forms.Button btn_TenPassBundle;
-        private System.Windows.Forms.Button btn_MonthlyMembership;
-        private System.Windows.Forms.Button btn_IndivAnnualMembership;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btn_CouplesMonthly;
+        private System.Windows.Forms.Button btn_IndivAnnualMembership;
+        private System.Windows.Forms.Button btn_MonthlyMembership;
+        private System.Windows.Forms.Button btn_TenPassBundle;
+        private System.Windows.Forms.Button btn_IndividualDayPass;
         private System.Windows.Forms.Button btn_CouplesAnnual;
+        private System.Windows.Forms.Button btn_CouplesMonthly;
         private System.Windows.Forms.Button btn_CouplesDay;
         private System.Windows.Forms.Panel pnl_Couples;
-        private System.Windows.Forms.Button btn_FamilyMonthly;
-        private System.Windows.Forms.Button btn_FamilyAnnual;
+        private System.Windows.Forms.Timer tmr_Individual;
+        private System.Windows.Forms.Timer tmr_Couples;
         private System.Windows.Forms.Panel pnl_Family;
-        private System.Windows.Forms.Button btn_GroupUnder10;
-        private System.Windows.Forms.Button btn_GroupOver10;
+        private System.Windows.Forms.Button btn_FamilyAnnual;
+        private System.Windows.Forms.Button btn_FamilyMonthly;
+        private System.Windows.Forms.Timer tmr_Family;
         private System.Windows.Forms.Panel pnl_Group;
-        private System.Windows.Forms.Button btn_IntroBouldering;
-        private System.Windows.Forms.Panel pnl_Classes;
-        private System.Windows.Forms.Button btn_LabDaily;
-        private System.Windows.Forms.Button btn_LabMonthly;
-        private System.Windows.Forms.Button btn_LabAnnual;
+        private System.Windows.Forms.Button btn_GroupOver10;
+        private System.Windows.Forms.Button btn_GroupUnder10;
+        private System.Windows.Forms.Timer tmr_Groups;
+        private System.Windows.Forms.Timer tmr_Classes;
         private System.Windows.Forms.Panel pnl_FitnessLab;
+        private System.Windows.Forms.Button btn_LabAnnual;
+        private System.Windows.Forms.Button btn_LabMonthly;
+        private System.Windows.Forms.Button btn_LabDaily;
+        private System.Windows.Forms.Timer tmr_FitnessLab;
+        private System.Windows.Forms.Panel pnl_Classes;
+        private System.Windows.Forms.Button btn_InroToBoulderingClass;
+        private System.Windows.Forms.Button btn_Classes;
     }
 }

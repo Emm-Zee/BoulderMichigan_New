@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10PunchPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10PunchPass.Designer.cs">
+      <DependentUpon>10PunchPass.cs</DependentUpon>
+    </Compile>
     <Compile Include="About.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="Book.Designer.cs">
       <DependentUpon>Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoulderingClassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoulderingClassForm.Designer.cs">
+      <DependentUpon>BoulderingClassForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes.cs">
       <SubType>Form</SubType>
@@ -124,6 +136,12 @@
     <Compile Include="FitnessLabDayPass.Designer.cs">
       <DependentUpon>FitnessLabDayPass.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_FitnessLabAnnualMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FitnessLabAnnualMembership.Designer.cs">
+      <DependentUpon>frm_FitnessLabAnnualMembership.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_FitnessLabMonthlyMembership.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,11 +160,29 @@
     <Compile Include="GroupRates.Designer.cs">
       <DependentUpon>GroupRates.cs</DependentUpon>
     </Compile>
+    <Compile Include="IndividualBoulderAnnualMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualBoulderAnnualMembership.Designer.cs">
+      <DependentUpon>IndividualBoulderAnnualMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualBoulderDayPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualBoulderDayPass.Designer.cs">
+      <DependentUpon>IndividualBoulderDayPass.cs</DependentUpon>
+    </Compile>
     <Compile Include="memberships.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="memberships.Designer.cs">
       <DependentUpon>memberships.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualBoulderMonthlyMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualBoulderMonthlyMembership.Designer.cs">
+      <DependentUpon>IndividualBoulderMonthlyMembership.cs</DependentUpon>
     </Compile>
     <Compile Include="Specials.cs">
       <SubType>Form</SubType>
@@ -182,11 +218,17 @@
     <Compile Include="Services.Designer.cs">
       <DependentUpon>Services.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="10PunchPass.resx">
+      <DependentUpon>10PunchPass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Book.resx">
       <DependentUpon>Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoulderingClassForm.resx">
+      <DependentUpon>BoulderingClassForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Classes.resx">
       <DependentUpon>Classes.cs</DependentUpon>
@@ -212,6 +254,9 @@
     <EmbeddedResource Include="FitnessLabDayPass.resx">
       <DependentUpon>FitnessLabDayPass.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_FitnessLabAnnualMembership.resx">
+      <DependentUpon>frm_FitnessLabAnnualMembership.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_FitnessLabMonthlyMembership.resx">
       <DependentUpon>frm_FitnessLabMonthlyMembership.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,8 +266,17 @@
     <EmbeddedResource Include="GroupRates.resx">
       <DependentUpon>GroupRates.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IndividualBoulderAnnualMembership.resx">
+      <DependentUpon>IndividualBoulderAnnualMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualBoulderDayPass.resx">
+      <DependentUpon>IndividualBoulderDayPass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="memberships.resx">
       <DependentUpon>memberships.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualBoulderMonthlyMembership.resx">
+      <DependentUpon>IndividualBoulderMonthlyMembership.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Specials.resx">
       <DependentUpon>Specials.cs</DependentUpon>

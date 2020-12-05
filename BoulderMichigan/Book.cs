@@ -147,8 +147,7 @@ namespace BoulderMichigan
             tmr_FitnessLab.Stop();
         }
 
-
-        private void btn_LabDaily_Click_1(object sender, EventArgs e)
+        private void btn_LabDaily_Click(object sender, EventArgs e)
         {
             frm_FitnessLabDayPass FitnessLabDayPassForm = new frm_FitnessLabDayPass();
             FitnessLabDayPassForm.Show();
@@ -158,6 +157,42 @@ namespace BoulderMichigan
         {
             frm_FitnessLabMonthlyMembership FitnessLabMonthlyMembershipForm = new frm_FitnessLabMonthlyMembership();
             FitnessLabMonthlyMembershipForm.Show();
+        }
+
+        private void btn_LabAnnual_Click(object sender, EventArgs e)
+        {
+            frm_FitnessLabAnnualMembership FitnessLabAnnualMembershipForm = new frm_FitnessLabAnnualMembership();
+            FitnessLabAnnualMembershipForm.Show();
+        }
+
+        private void btn_InroToBoulderingClass_Click(object sender, EventArgs e)
+        {
+            frm_BoulderingClass IntroToBoulderingClassForm = new frm_BoulderingClass();
+            IntroToBoulderingClassForm.Show();
+        }
+
+        private void btn_IndividualDayPass_Click(object sender, EventArgs e)
+        {
+            frm_IndividualBoulderDayPass IndividualBoulderDayPassForm = new frm_IndividualBoulderDayPass();
+            IndividualBoulderDayPassForm.Show();
+        }
+
+        private void btn_TenPassBundle_Click(object sender, EventArgs e)
+        {
+            frm_TenPunchPass TenPunchPassForm = new frm_TenPunchPass();
+            TenPunchPassForm.Show();
+        }
+
+        private void btn_MonthlyMembership_Click(object sender, EventArgs e)
+        {
+            frm_IndividualBoulderMonthlyMembership IndividualBoulderMonthlyMembershipForm = new frm_IndividualBoulderMonthlyMembership();
+            IndividualBoulderMonthlyMembershipForm.Show();
+        }
+
+        private void btn_IndivAnnualMembership_Click(object sender, EventArgs e)
+        {
+            frm_IndividualBoulderAnnualMembership IndiviudalBoulderAnnualMembershipForm = new frm_IndividualBoulderAnnualMembership();
+            IndiviudalBoulderAnnualMembershipForm.Show();
         }
     }
 }

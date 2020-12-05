@@ -56,9 +56,5 @@ namespace BoulderMichigan
             Environment.Exit(0);
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -63,7 +63,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(58, 978);
+            this.menuStrip1.Size = new System.Drawing.Size(186, 978);
             this.menuStrip1.TabIndex = 34;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -71,43 +71,43 @@ namespace BoulderMichigan
             // servicesToolStripMenuItem
             // 
             this.servicesToolStripMenuItem.Name = "servicesToolStripMenuItem";
-            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(45, 4);
+            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(173, 4);
             // 
             // servicesToolStripMenuItem1
             // 
             this.servicesToolStripMenuItem1.Name = "servicesToolStripMenuItem1";
-            this.servicesToolStripMenuItem1.Size = new System.Drawing.Size(45, 169);
+            this.servicesToolStripMenuItem1.Size = new System.Drawing.Size(173, 169);
             this.servicesToolStripMenuItem1.Text = "Services";
             this.servicesToolStripMenuItem1.Click += new System.EventHandler(this.servicesToolStripMenuItem1_Click);
             // 
             // bookToolStripMenuItem1
             // 
             this.bookToolStripMenuItem1.Name = "bookToolStripMenuItem1";
-            this.bookToolStripMenuItem1.Size = new System.Drawing.Size(45, 106);
+            this.bookToolStripMenuItem1.Size = new System.Drawing.Size(173, 106);
             this.bookToolStripMenuItem1.Text = "Book";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(45, 127);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(173, 127);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // waiverToolStripMenuItem
             // 
             this.waiverToolStripMenuItem.Name = "waiverToolStripMenuItem";
-            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(45, 138);
+            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(173, 138);
             this.waiverToolStripMenuItem.Text = "Waiver";
             // 
             // fAQToolStripMenuItem
             // 
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(45, 91);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(173, 91);
             this.fAQToolStripMenuItem.Text = "FAQ";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(45, 94);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(173, 94);
             this.exitToolStripMenuItem.Text = "Quit";
             // 
             // lbl_EquipmentRental

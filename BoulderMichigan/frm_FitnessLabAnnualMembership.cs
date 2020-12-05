@@ -10,36 +10,17 @@ using System.Windows.Forms;
 
 namespace BoulderMichigan
 {
-    public partial class frm_FitnessLabDayPass : Form
+    public partial class frm_FitnessLabAnnualMembership : Form
     {
-        public frm_FitnessLabDayPass()
+        public frm_FitnessLabAnnualMembership()
         {
             InitializeComponent();
         }
 
-        private void btn_Buy_Click(object sender, EventArgs e)
+        private void btn_AnnualFitnessLabMembership_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox_WaiverDisclaimer_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-
             if (textBox_FirstName.Text == string.Empty || textBox_LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty ||
-                textBox_City.Text == string.Empty || textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty ||
-                dateTimePicker_FitnessLabDayPass.Text == string.Empty || textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
+    textBox_City.Text == string.Empty || textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty || textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
             {
                 string message = ($"Please fill in all the fields.");
                 MessageBox.Show(message);
@@ -50,7 +31,7 @@ namespace BoulderMichigan
                 {
                     MessageBox.Show("Please Enter A Valid Email");
                 }
-                
+
                 if (!int.TryParse(textBox_ZipCode.Text, out int zipCodeWrong) || textBox_ZipCode.Text.Length < 5)
                 {
                     MessageBox.Show("Please enter a valid zipcode.");
@@ -62,7 +43,7 @@ namespace BoulderMichigan
                 }
                 if (int.TryParse(textBox_ZipCode.Text, out int zipCode) && long.TryParse(textBox_Phone.Text, out long Phone) && textBox_ZipCode.Text.Length == 5 && textBox_Phone.Text.Length == 10 && this.textBox_Email.Text.Contains('@') && this.textBox_Email.Text.Contains('.'))
                 {
-                    string message = ($"Thank you for booking a visit with us, {textBox_FirstName.Text}. See you soon!");
+                    string message = ($"Thank you for becoming a member, {textBox_FirstName.Text}. See you soon!");
                     MessageBox.Show(message);
                     this.Close();
                 }
