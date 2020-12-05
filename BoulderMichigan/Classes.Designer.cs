@@ -158,6 +158,7 @@ namespace BoulderMichigan
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(497, 164);
             this.textBox1.TabIndex = 50;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "Includes day pass and equipment\r\n\r\nLasts approximately 2 hours \r\n\r\nLimit: 6 stude" +
     "nts per class";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

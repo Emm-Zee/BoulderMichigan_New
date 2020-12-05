@@ -190,6 +190,18 @@
     <Compile Include="GroupRates.Designer.cs">
       <DependentUpon>GroupRates.cs</DependentUpon>
     </Compile>
+    <Compile Include="GroupsLessThan10Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupsLessThan10Book.Designer.cs">
+      <DependentUpon>GroupsLessThan10Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupsMoreThan10Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupsMoreThan10Book.Designer.cs">
+      <DependentUpon>GroupsMoreThan10Book.cs</DependentUpon>
+    </Compile>
     <Compile Include="IndividualBoulderAnnualMembership.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -310,6 +322,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GroupRates.resx">
       <DependentUpon>GroupRates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupsLessThan10Book.resx">
+      <DependentUpon>GroupsLessThan10Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupsMoreThan10Book.resx">
+      <DependentUpon>GroupsMoreThan10Book.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IndividualBoulderAnnualMembership.resx">
       <DependentUpon>IndividualBoulderAnnualMembership.cs</DependentUpon>

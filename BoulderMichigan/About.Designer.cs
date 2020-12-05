@@ -38,11 +38,11 @@ namespace BoulderMichigan
             this.waiverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lbl_IntroToBouldering = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +52,7 @@ namespace BoulderMichigan
             this.lbl_About.BackColor = System.Drawing.Color.Transparent;
             this.lbl_About.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_About.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_About.Location = new System.Drawing.Point(1046, 71);
+            this.lbl_About.Location = new System.Drawing.Point(915, 71);
             this.lbl_About.Name = "lbl_About";
             this.lbl_About.Size = new System.Drawing.Size(188, 60);
             this.lbl_About.TabIndex = 0;
@@ -127,32 +127,19 @@ namespace BoulderMichigan
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold);
             this.richTextBox3.ForeColor = System.Drawing.Color.White;
-            this.richTextBox3.Location = new System.Drawing.Point(961, 183);
+            this.richTextBox3.Location = new System.Drawing.Point(830, 183);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(405, 62);
             this.richTextBox3.TabIndex = 48;
             this.richTextBox3.Text = "[Established 2020]";
             this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold);
-            this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(959, 590);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(364, 257);
-            this.richTextBox1.TabIndex = 47;
-            this.richTextBox1.Text = "Monday: 2pm – 10 pm\nTuesday: 12 pm – 10 pm\nWednesday: 2 pm – 9 pm\nThursday: 12 pm" +
-    " – 10 pm\nFriday: 12 pm – 10 pm\nSaturday: 9 am – 10 pm\nSunday: 11 am – 10 pm";
-            // 
             // lbl_IntroToBouldering
             // 
             this.lbl_IntroToBouldering.AutoSize = true;
             this.lbl_IntroToBouldering.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_IntroToBouldering.ForeColor = System.Drawing.Color.White;
-            this.lbl_IntroToBouldering.Location = new System.Drawing.Point(1051, 531);
+            this.lbl_IntroToBouldering.Location = new System.Drawing.Point(920, 531);
             this.lbl_IntroToBouldering.Name = "lbl_IntroToBouldering";
             this.lbl_IntroToBouldering.Size = new System.Drawing.Size(162, 48);
             this.lbl_IntroToBouldering.TabIndex = 46;
@@ -164,7 +151,7 @@ namespace BoulderMichigan
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold);
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
-            this.richTextBox2.Location = new System.Drawing.Point(966, 893);
+            this.richTextBox2.Location = new System.Drawing.Point(835, 893);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(358, 68);
             this.richTextBox2.TabIndex = 50;
@@ -176,23 +163,41 @@ namespace BoulderMichigan
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold);
             this.richTextBox4.ForeColor = System.Drawing.Color.Goldenrod;
-            this.richTextBox4.Location = new System.Drawing.Point(978, 938);
+            this.richTextBox4.Location = new System.Drawing.Point(852, 938);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(291, 50);
             this.richTextBox4.TabIndex = 51;
             this.richTextBox4.Text = "www.bouldermi.com";
             // 
-            // richTextBox5
+            // textBox2
             // 
-            this.richTextBox5.BackColor = System.Drawing.Color.DimGray;
-            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox5.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold);
-            this.richTextBox5.ForeColor = System.Drawing.Color.White;
-            this.richTextBox5.Location = new System.Drawing.Point(922, 302);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(466, 167);
-            this.richTextBox5.TabIndex = 52;
-            this.richTextBox5.Text = "2020 Rock Road\nTraverse City, MI\n49686";
+            this.textBox2.BackColor = System.Drawing.Color.DimGray;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(684, 321);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(610, 147);
+            this.textBox2.TabIndex = 54;
+            this.textBox2.Text = "2020 Rock Road\r\nTraverse City, MI\r\n49686\r\n";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.DimGray;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(693, 600);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(610, 257);
+            this.textBox1.TabIndex = 55;
+            this.textBox1.Text = "Monday: 2pm – 10 pm\r\nTuesday: 12 pm – 10 pm\r\nWednesday: 2 pm – 9 pm\r\nThursday: 12" +
+    " pm – 10 pm\r\nFriday: 12 pm – 10 pm\r\nSaturday: 9 am – 10 pm\r\nSunday: 11 am – 10 p" +
+    "m\r\n";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frm_About
             // 
@@ -200,11 +205,11 @@ namespace BoulderMichigan
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1794, 1050);
-            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox3);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.lbl_IntroToBouldering);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lbl_About);
@@ -230,10 +235,10 @@ namespace BoulderMichigan
         private System.Windows.Forms.ToolStripMenuItem waiverToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label lbl_IntroToBouldering;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox4;
-        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

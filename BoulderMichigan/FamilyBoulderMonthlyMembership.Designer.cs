@@ -724,9 +724,9 @@ namespace BoulderMichigan
             this.pnl_FourFamilyMember.Controls.Add(this.label12);
             this.pnl_FourFamilyMember.Controls.Add(this.textBox_4Member2FirstName);
             this.pnl_FourFamilyMember.Controls.Add(this.label13);
-            this.pnl_FourFamilyMember.Location = new System.Drawing.Point(371, 515);
+            this.pnl_FourFamilyMember.Location = new System.Drawing.Point(371, 537);
             this.pnl_FourFamilyMember.Name = "pnl_FourFamilyMember";
-            this.pnl_FourFamilyMember.Size = new System.Drawing.Size(1251, 10);
+            this.pnl_FourFamilyMember.Size = new System.Drawing.Size(1251, 0);
             this.pnl_FourFamilyMember.TabIndex = 154;
             // 
             // pnl_FiveFamilyMember2
@@ -1018,6 +1018,7 @@ namespace BoulderMichigan
             this.btn_4FamilyMemberMonthlyJoin.TabIndex = 159;
             this.btn_4FamilyMemberMonthlyJoin.Text = "Join";
             this.btn_4FamilyMemberMonthlyJoin.UseVisualStyleBackColor = false;
+            this.btn_4FamilyMemberMonthlyJoin.Click += new System.EventHandler(this.btn_4FamilyMemberMonthlyJoin_Click_1);
             // 
             // label9
             // 
@@ -1055,6 +1056,7 @@ namespace BoulderMichigan
             this.btn_FiveFamilyMember.TabIndex = 164;
             this.btn_FiveFamilyMember.Text = "Join";
             this.btn_FiveFamilyMember.UseVisualStyleBackColor = false;
+            this.btn_FiveFamilyMember.Click += new System.EventHandler(this.btn_FiveFamilyMember_Click_1);
             // 
             // label18
             // 

@@ -85,13 +85,13 @@ namespace BoulderMichigan
             }
         }
 
-        private void btn_4FamilyMemberMonthlyJoin_Click(object sender, EventArgs e)
+        private void btn_4FamilyMemberMonthlyJoin_Click_1(object sender, EventArgs e)
         {
             if (textBox_FirstName.Text == string.Empty || textBox_LastName.Text == string.Empty || textBox_4Member2FirstName.Text == string.Empty ||
-       textBox_4Member2LastName.Text == string.Empty || textBox_4Member3FirstName.Text == string.Empty || textBox_4Member3LastName.Text == string.Empty ||
-       textBox_4Member4FirstName.Text == string.Empty || textBox_4Member4LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty ||
-       textBox_City.Text == string.Empty || textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty ||
-       textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
+textBox_4Member2LastName.Text == string.Empty || textBox_4Member3FirstName.Text == string.Empty || textBox_4Member3LastName.Text == string.Empty ||
+textBox_4Member4FirstName.Text == string.Empty || textBox_4Member4LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty ||
+textBox_City.Text == string.Empty || textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty ||
+textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
 
             {
                 string message = ($"Please fill in all the fields.");
@@ -123,13 +123,13 @@ namespace BoulderMichigan
             }
         }
 
-        private void btn_FiveFamilyMember_Click(object sender, EventArgs e)
+        private void btn_FiveFamilyMember_Click_1(object sender, EventArgs e)
         {
             if (textBox_FirstName.Text == string.Empty || textBox_LastName.Text == string.Empty || textBox_5Member2FirstName.Text == string.Empty ||
-                textBox_5Member2LastName.Text == string.Empty || textBox_5Member3FirstName.Text == string.Empty || textBox_5Member3LastName.Text == string.Empty ||
-                textBox_5Member4FirstName.Text == string.Empty || textBox_5Member4LastName.Text == string.Empty || textBox_5Member5FirstName.Text == string.Empty ||
-                textBox_5Member5LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty || textBox_City.Text == string.Empty || 
-                textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty || textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
+     textBox_5Member2LastName.Text == string.Empty || textBox_5Member3FirstName.Text == string.Empty || textBox_5Member3LastName.Text == string.Empty ||
+     textBox_5Member4FirstName.Text == string.Empty || textBox_5Member4LastName.Text == string.Empty || textBox_5Member5FirstName.Text == string.Empty ||
+     textBox_5Member5LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty || textBox_City.Text == string.Empty ||
+     textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty || textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
 
             {
                 string message = ($"Please fill in all the fields.");
@@ -160,5 +160,6 @@ namespace BoulderMichigan
                 }
             }
         }
+
     }
 }

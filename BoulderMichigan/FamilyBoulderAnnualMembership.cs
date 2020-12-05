@@ -85,7 +85,7 @@ namespace BoulderMichigan
             }
         }
 
-        private void btn_Annual4Member_Click(object sender, EventArgs e)
+        private void btn_Annual4Member_Click_1(object sender, EventArgs e)
         {
             if (textBox_FirstName.Text == string.Empty || textBox_LastName.Text == string.Empty || textBox_4Member2FirstName.Text == string.Empty ||
 textBox_4Member2LastName.Text == string.Empty || textBox_4Member3FirstName.Text == string.Empty || textBox_4Member3LastName.Text == string.Empty ||
@@ -123,13 +123,13 @@ textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
             }
         }
 
-        private void btn_Annual5Member_Click(object sender, EventArgs e)
+        private void btn_Annual5Member_Click_1(object sender, EventArgs e)
         {
             if (textBox_FirstName.Text == string.Empty || textBox_LastName.Text == string.Empty || textBox_5Member2FirstName.Text == string.Empty ||
-    textBox_5Member2LastName.Text == string.Empty || textBox_5Member3FirstName.Text == string.Empty || textBox_5Member3LastName.Text == string.Empty ||
-    textBox_5Member4FirstName.Text == string.Empty || textBox_5Member4LastName.Text == string.Empty || textBox_5Member5FirstName.Text == string.Empty ||
-    textBox_5Member5LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty || textBox_City.Text == string.Empty ||
-    textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty || textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
+textBox_5Member2LastName.Text == string.Empty || textBox_5Member3FirstName.Text == string.Empty || textBox_5Member3LastName.Text == string.Empty ||
+textBox_5Member4FirstName.Text == string.Empty || textBox_5Member4LastName.Text == string.Empty || textBox_5Member5FirstName.Text == string.Empty ||
+textBox_5Member5LastName.Text == string.Empty || textBox_StreetAddress.Text == string.Empty || textBox_City.Text == string.Empty ||
+textBox_State.Text == string.Empty || textBox_ZipCode.Text == string.Empty || textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
 
             {
                 string message = ($"Please fill in all the fields.");
@@ -157,6 +157,7 @@ textBox_Phone.Text == string.Empty || textBox_Email.Text == string.Empty)
                     string message = ($"Thank you for joining! We look forward to seeing your family soon soon, {textBox_FirstName.Text}!");
                     MessageBox.Show(message);
                     this.Close();
+
                 }
             }
         }

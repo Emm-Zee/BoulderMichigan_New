@@ -51,6 +51,9 @@ namespace BoulderMichigan
             this.lbl_FirstName = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pnl_FiveFamilyMember2 = new System.Windows.Forms.Panel();
+            this.textBox_5FamilyMemberTotal = new System.Windows.Forms.TextBox();
+            this.btn_Annual5Member = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.textBox_5Member5LastName = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -74,6 +77,9 @@ namespace BoulderMichigan
             this.textBox_5Member2FirstName = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.pnl_FourFamilyMember = new System.Windows.Forms.Panel();
+            this.textBox_4FamilyMemberTotal = new System.Windows.Forms.TextBox();
+            this.btn_Annual4Member = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox_4Member4LastName = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -107,12 +113,6 @@ namespace BoulderMichigan
             this.label1 = new System.Windows.Forms.Label();
             this.textBox_3FamilyMember2FirstName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox_5FamilyMemberTotal = new System.Windows.Forms.TextBox();
-            this.btn_Annual5Member = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox_4FamilyMemberTotal = new System.Windows.Forms.TextBox();
-            this.btn_Annual4Member = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.pnl_FiveFamilyMember2.SuspendLayout();
             this.pnl_FourFamilyMember.SuspendLayout();
             this.pnl_ThreeFamilyMembers.SuspendLayout();
@@ -364,6 +364,44 @@ namespace BoulderMichigan
             this.pnl_FiveFamilyMember2.Name = "pnl_FiveFamilyMember2";
             this.pnl_FiveFamilyMember2.Size = new System.Drawing.Size(1251, 10);
             this.pnl_FiveFamilyMember2.TabIndex = 164;
+            // 
+            // textBox_5FamilyMemberTotal
+            // 
+            this.textBox_5FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
+            this.textBox_5FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_5FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_5FamilyMemberTotal.Location = new System.Drawing.Point(577, 403);
+            this.textBox_5FamilyMemberTotal.Name = "textBox_5FamilyMemberTotal";
+            this.textBox_5FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
+            this.textBox_5FamilyMemberTotal.TabIndex = 165;
+            this.textBox_5FamilyMemberTotal.TabStop = false;
+            // 
+            // btn_Annual5Member
+            // 
+            this.btn_Annual5Member.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Annual5Member.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
+            this.btn_Annual5Member.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_Annual5Member.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_Annual5Member.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Annual5Member.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Annual5Member.ForeColor = System.Drawing.Color.Goldenrod;
+            this.btn_Annual5Member.Location = new System.Drawing.Point(544, 461);
+            this.btn_Annual5Member.Name = "btn_Annual5Member";
+            this.btn_Annual5Member.Size = new System.Drawing.Size(136, 53);
+            this.btn_Annual5Member.TabIndex = 164;
+            this.btn_Annual5Member.Text = "Join";
+            this.btn_Annual5Member.UseVisualStyleBackColor = false;
+            this.btn_Annual5Member.Click += new System.EventHandler(this.btn_Annual5Member_Click_1);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(424, 400);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(158, 42);
+            this.label18.TabIndex = 163;
+            this.label18.Text = "Total: ";
             // 
             // textBox23
             // 
@@ -618,10 +656,48 @@ namespace BoulderMichigan
             this.pnl_FourFamilyMember.Controls.Add(this.label12);
             this.pnl_FourFamilyMember.Controls.Add(this.textBox_4Member2FirstName);
             this.pnl_FourFamilyMember.Controls.Add(this.label13);
-            this.pnl_FourFamilyMember.Location = new System.Drawing.Point(415, 515);
+            this.pnl_FourFamilyMember.Location = new System.Drawing.Point(415, 571);
             this.pnl_FourFamilyMember.Name = "pnl_FourFamilyMember";
-            this.pnl_FourFamilyMember.Size = new System.Drawing.Size(1251, 10);
+            this.pnl_FourFamilyMember.Size = new System.Drawing.Size(1251, 0);
             this.pnl_FourFamilyMember.TabIndex = 163;
+            // 
+            // textBox_4FamilyMemberTotal
+            // 
+            this.textBox_4FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
+            this.textBox_4FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_4FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_4FamilyMemberTotal.Location = new System.Drawing.Point(516, 324);
+            this.textBox_4FamilyMemberTotal.Name = "textBox_4FamilyMemberTotal";
+            this.textBox_4FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
+            this.textBox_4FamilyMemberTotal.TabIndex = 160;
+            this.textBox_4FamilyMemberTotal.TabStop = false;
+            // 
+            // btn_Annual4Member
+            // 
+            this.btn_Annual4Member.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Annual4Member.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
+            this.btn_Annual4Member.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_Annual4Member.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_Annual4Member.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Annual4Member.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Annual4Member.ForeColor = System.Drawing.Color.Goldenrod;
+            this.btn_Annual4Member.Location = new System.Drawing.Point(483, 382);
+            this.btn_Annual4Member.Name = "btn_Annual4Member";
+            this.btn_Annual4Member.Size = new System.Drawing.Size(136, 53);
+            this.btn_Annual4Member.TabIndex = 159;
+            this.btn_Annual4Member.Text = "Join";
+            this.btn_Annual4Member.UseVisualStyleBackColor = false;
+            this.btn_Annual4Member.Click += new System.EventHandler(this.btn_Annual4Member_Click_1);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(363, 321);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(158, 42);
+            this.label9.TabIndex = 158;
+            this.label9.Text = "Total: ";
             // 
             // textBox18
             // 
@@ -991,80 +1067,6 @@ namespace BoulderMichigan
             this.label2.Size = new System.Drawing.Size(167, 30);
             this.label2.TabIndex = 116;
             this.label2.Text = "First Name";
-            // 
-            // textBox_5FamilyMemberTotal
-            // 
-            this.textBox_5FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
-            this.textBox_5FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_5FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_5FamilyMemberTotal.Location = new System.Drawing.Point(577, 403);
-            this.textBox_5FamilyMemberTotal.Name = "textBox_5FamilyMemberTotal";
-            this.textBox_5FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
-            this.textBox_5FamilyMemberTotal.TabIndex = 165;
-            this.textBox_5FamilyMemberTotal.TabStop = false;
-            // 
-            // btn_Annual5Member
-            // 
-            this.btn_Annual5Member.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Annual5Member.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
-            this.btn_Annual5Member.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_Annual5Member.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_Annual5Member.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Annual5Member.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Annual5Member.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Annual5Member.Location = new System.Drawing.Point(544, 461);
-            this.btn_Annual5Member.Name = "btn_Annual5Member";
-            this.btn_Annual5Member.Size = new System.Drawing.Size(136, 53);
-            this.btn_Annual5Member.TabIndex = 164;
-            this.btn_Annual5Member.Text = "Join";
-            this.btn_Annual5Member.UseVisualStyleBackColor = false;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(424, 400);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(158, 42);
-            this.label18.TabIndex = 163;
-            this.label18.Text = "Total: ";
-            // 
-            // textBox_4FamilyMemberTotal
-            // 
-            this.textBox_4FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
-            this.textBox_4FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_4FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_4FamilyMemberTotal.Location = new System.Drawing.Point(516, 324);
-            this.textBox_4FamilyMemberTotal.Name = "textBox_4FamilyMemberTotal";
-            this.textBox_4FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
-            this.textBox_4FamilyMemberTotal.TabIndex = 160;
-            this.textBox_4FamilyMemberTotal.TabStop = false;
-            // 
-            // btn_Annual4Member
-            // 
-            this.btn_Annual4Member.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Annual4Member.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
-            this.btn_Annual4Member.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_Annual4Member.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_Annual4Member.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Annual4Member.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Annual4Member.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Annual4Member.Location = new System.Drawing.Point(483, 382);
-            this.btn_Annual4Member.Name = "btn_Annual4Member";
-            this.btn_Annual4Member.Size = new System.Drawing.Size(136, 53);
-            this.btn_Annual4Member.TabIndex = 159;
-            this.btn_Annual4Member.Text = "Join";
-            this.btn_Annual4Member.UseVisualStyleBackColor = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(363, 321);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(158, 42);
-            this.label9.TabIndex = 158;
-            this.label9.Text = "Total: ";
             // 
             // frm_FamilyBoulderAnnualMembership
             // 

@@ -127,7 +127,7 @@ namespace BoulderMichigan
 
         private void tmr_Classes_Tick(object sender, EventArgs e)
         {
-            pnl_Classes.Height = 500;
+            pnl_Classes.Height = 75;
             tmr_Classes.Stop();
         }
 
@@ -226,5 +226,16 @@ namespace BoulderMichigan
             FamilyBoulderAnnualMembership.Show();
         }
 
+        private void btn_GroupUnder10_Click(object sender, EventArgs e)
+        {
+            frm_GroupsLessThan10Book GroupsLessThan10Form = new frm_GroupsLessThan10Book();
+            GroupsLessThan10Form.Show();
+        }
+
+        private void btn_GroupOver10_Click(object sender, EventArgs e)
+        {
+            frm_GroupsMoreThan10Book GroupsMoreThan10Form = new frm_GroupsMoreThan10Book();
+            GroupsMoreThan10Form.Show();
+        }
     }
 }

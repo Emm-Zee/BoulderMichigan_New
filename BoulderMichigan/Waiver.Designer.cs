@@ -39,6 +39,7 @@ namespace BoulderMichigan
             this.lbl_Waiver = new System.Windows.Forms.Label();
             this.btn_DownloadWaiver = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@ namespace BoulderMichigan
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bookToolStripMenuItem,
             this.servicesToolStripMenuItem,
             this.waiverToolStripMenuItem,
             this.fAQToolStripMenuItem,
@@ -57,7 +59,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(58, 1000);
+            this.menuStrip1.Size = new System.Drawing.Size(186, 1000);
             this.menuStrip1.TabIndex = 22;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -67,39 +69,39 @@ namespace BoulderMichigan
             this.servicesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.djdjjdjToolStripMenuItem});
             this.servicesToolStripMenuItem.Name = "servicesToolStripMenuItem";
-            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(38, 118);
+            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(173, 169);
             this.servicesToolStripMenuItem.Text = "Services";
             this.servicesToolStripMenuItem.Click += new System.EventHandler(this.servicesToolStripMenuItem_Click);
             // 
             // djdjjdjToolStripMenuItem
             // 
             this.djdjjdjToolStripMenuItem.Name = "djdjjdjToolStripMenuItem";
-            this.djdjjdjToolStripMenuItem.Size = new System.Drawing.Size(189, 38);
+            this.djdjjdjToolStripMenuItem.Size = new System.Drawing.Size(270, 44);
             this.djdjjdjToolStripMenuItem.Text = "djdjjdj";
             // 
             // waiverToolStripMenuItem
             // 
             this.waiverToolStripMenuItem.Name = "waiverToolStripMenuItem";
-            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(38, 4);
+            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(173, 4);
             // 
             // fAQToolStripMenuItem
             // 
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(38, 69);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(173, 91);
             this.fAQToolStripMenuItem.Text = "FAQ";
             this.fAQToolStripMenuItem.Click += new System.EventHandler(this.fAQToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(38, 84);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(173, 127);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(38, 65);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(173, 94);
             this.exitToolStripMenuItem.Text = "Quit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -149,6 +151,13 @@ namespace BoulderMichigan
     ". \r\n\r\n\r\nPlease click the link below to view the waiver. ";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // bookToolStripMenuItem
+            // 
+            this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
+            this.bookToolStripMenuItem.Size = new System.Drawing.Size(173, 106);
+            this.bookToolStripMenuItem.Text = "Book";
+            this.bookToolStripMenuItem.Click += new System.EventHandler(this.bookToolStripMenuItem_Click_1);
+            // 
             // frm_Waiver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -182,5 +191,6 @@ namespace BoulderMichigan
         private System.Windows.Forms.Label lbl_Waiver;
         private System.Windows.Forms.Button btn_DownloadWaiver;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ToolStripMenuItem bookToolStripMenuItem;
     }
 }

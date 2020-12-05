@@ -145,6 +145,7 @@ namespace BoulderMichigan
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(610, 182);
             this.textBox2.TabIndex = 49;
+            this.textBox2.TabStop = false;
             this.textBox2.Text = "1/2 Day\r\n$10\r\n\r\n\r\nFull Day\r\n$15\r\n";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

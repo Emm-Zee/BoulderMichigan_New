@@ -28,6 +28,12 @@ namespace BoulderMichigan
             ServicesForm.Show();
         }
 
+        private void bookToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            frm_Book BookForm = new frm_Book();
+            BookForm.Show();
+        }
         private void bookToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_Book BookForm = new frm_Book();
@@ -72,5 +78,7 @@ namespace BoulderMichigan
             Process.Start("BoulderMichiganWaiver.pdf");
             //
         }
-        }
+
+
+    }
     }
