@@ -52,7 +52,7 @@ namespace BoulderMichigan
             this.lbl_About.BackColor = System.Drawing.Color.Transparent;
             this.lbl_About.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_About.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lbl_About.Location = new System.Drawing.Point(915, 71);
+            this.lbl_About.Location = new System.Drawing.Point(975, 61);
             this.lbl_About.Name = "lbl_About";
             this.lbl_About.Size = new System.Drawing.Size(188, 60);
             this.lbl_About.TabIndex = 0;
@@ -127,7 +127,7 @@ namespace BoulderMichigan
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold);
             this.richTextBox3.ForeColor = System.Drawing.Color.White;
-            this.richTextBox3.Location = new System.Drawing.Point(830, 183);
+            this.richTextBox3.Location = new System.Drawing.Point(890, 173);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(405, 62);
             this.richTextBox3.TabIndex = 48;
@@ -139,7 +139,7 @@ namespace BoulderMichigan
             this.lbl_IntroToBouldering.AutoSize = true;
             this.lbl_IntroToBouldering.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_IntroToBouldering.ForeColor = System.Drawing.Color.White;
-            this.lbl_IntroToBouldering.Location = new System.Drawing.Point(920, 531);
+            this.lbl_IntroToBouldering.Location = new System.Drawing.Point(980, 521);
             this.lbl_IntroToBouldering.Name = "lbl_IntroToBouldering";
             this.lbl_IntroToBouldering.Size = new System.Drawing.Size(162, 48);
             this.lbl_IntroToBouldering.TabIndex = 46;
@@ -151,7 +151,7 @@ namespace BoulderMichigan
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold);
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
-            this.richTextBox2.Location = new System.Drawing.Point(835, 893);
+            this.richTextBox2.Location = new System.Drawing.Point(895, 883);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(358, 68);
             this.richTextBox2.TabIndex = 50;
@@ -163,7 +163,7 @@ namespace BoulderMichigan
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold);
             this.richTextBox4.ForeColor = System.Drawing.Color.Goldenrod;
-            this.richTextBox4.Location = new System.Drawing.Point(852, 938);
+            this.richTextBox4.Location = new System.Drawing.Point(913, 928);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(291, 50);
             this.richTextBox4.TabIndex = 51;
@@ -175,7 +175,7 @@ namespace BoulderMichigan
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(684, 321);
+            this.textBox2.Location = new System.Drawing.Point(744, 311);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(610, 147);
@@ -189,7 +189,7 @@ namespace BoulderMichigan
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(693, 600);
+            this.textBox1.Location = new System.Drawing.Point(753, 590);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(610, 257);

@@ -35,6 +35,8 @@ namespace BoulderMichigan
             this.btn_Waiver = new System.Windows.Forms.Button();
             this.btn_Quit = new System.Windows.Forms.Button();
             this.btn_FAQ = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Services
@@ -47,7 +49,7 @@ namespace BoulderMichigan
             this.btn_Services.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Services.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Services.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Services.Location = new System.Drawing.Point(496, 110);
+            this.btn_Services.Location = new System.Drawing.Point(86, 135);
             this.btn_Services.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Services.Name = "btn_Services";
             this.btn_Services.Size = new System.Drawing.Size(240, 67);
@@ -66,7 +68,7 @@ namespace BoulderMichigan
             this.btn_Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Book.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Book.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Book.Location = new System.Drawing.Point(496, 174);
+            this.btn_Book.Location = new System.Drawing.Point(86, 199);
             this.btn_Book.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Book.Name = "btn_Book";
             this.btn_Book.Size = new System.Drawing.Size(240, 67);
@@ -85,7 +87,7 @@ namespace BoulderMichigan
             this.btn_About.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_About.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_About.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_About.Location = new System.Drawing.Point(496, 300);
+            this.btn_About.Location = new System.Drawing.Point(86, 325);
             this.btn_About.Margin = new System.Windows.Forms.Padding(5);
             this.btn_About.Name = "btn_About";
             this.btn_About.Size = new System.Drawing.Size(240, 76);
@@ -104,7 +106,7 @@ namespace BoulderMichigan
             this.btn_Waiver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Waiver.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Waiver.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Waiver.Location = new System.Drawing.Point(496, 374);
+            this.btn_Waiver.Location = new System.Drawing.Point(86, 399);
             this.btn_Waiver.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Waiver.Name = "btn_Waiver";
             this.btn_Waiver.Size = new System.Drawing.Size(240, 73);
@@ -123,7 +125,7 @@ namespace BoulderMichigan
             this.btn_Quit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Quit.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Quit.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Quit.Location = new System.Drawing.Point(496, 442);
+            this.btn_Quit.Location = new System.Drawing.Point(86, 467);
             this.btn_Quit.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Quit.Name = "btn_Quit";
             this.btn_Quit.Size = new System.Drawing.Size(240, 69);
@@ -142,7 +144,7 @@ namespace BoulderMichigan
             this.btn_FAQ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FAQ.Font = new System.Drawing.Font("OPTICopperplate-Light", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_FAQ.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_FAQ.Location = new System.Drawing.Point(496, 238);
+            this.btn_FAQ.Location = new System.Drawing.Point(86, 263);
             this.btn_FAQ.Margin = new System.Windows.Forms.Padding(5);
             this.btn_FAQ.Name = "btn_FAQ";
             this.btn_FAQ.Size = new System.Drawing.Size(240, 64);
@@ -151,12 +153,23 @@ namespace BoulderMichigan
             this.btn_FAQ.UseVisualStyleBackColor = false;
             this.btn_FAQ.Click += new System.EventHandler(this.btn_FAQ_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::BoulderMichigan.Properties.Resources.victor_xok_oyPLmauJzzo_unsplash_mediumer;
+            this.pictureBox1.Location = new System.Drawing.Point(402, -27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(976, 987);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // frm_Menu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DimGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.ClientSize = new System.Drawing.Size(1266, 764);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_FAQ);
             this.Controls.Add(this.btn_Quit);
             this.Controls.Add(this.btn_Waiver);
@@ -172,6 +185,7 @@ namespace BoulderMichigan
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -183,5 +197,6 @@ namespace BoulderMichigan
         private System.Windows.Forms.Button btn_Waiver;
         private System.Windows.Forms.Button btn_Quit;
         private System.Windows.Forms.Button btn_FAQ;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

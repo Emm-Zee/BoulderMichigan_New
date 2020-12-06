@@ -83,9 +83,119 @@ namespace BoulderMichigan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alex_motoc_N3yq_z4UFHQ_unsplash_med_large {
+            get {
+                object obj = ResourceManager.GetObject("alex-motoc-N3yq-z4UFHQ-unsplash-med-large", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alex_motoc_N3yq_z4UFHQ_unsplash_medium {
+            get {
+                object obj = ResourceManager.GetObject("alex-motoc-N3yq-z4UFHQ-unsplash-medium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marian_kroell_QtJN2yiUvSo_unsplash_500 {
+            get {
+                object obj = ResourceManager.GetObject("marian-kroell-QtJN2yiUvSo-unsplash-500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marian_kroell_QtJN2yiUvSo_unsplash_cropped {
+            get {
+                object obj = ResourceManager.GetObject("marian-kroell-QtJN2yiUvSo-unsplash-cropped", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marian_kroell_QtJN2yiUvSo_unsplash_cropped_med {
+            get {
+                object obj = ResourceManager.GetObject("marian-kroell-QtJN2yiUvSo-unsplash-cropped_med", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marian_kroell_QtJN2yiUvSo_unsplash_cropped_smaller {
+            get {
+                object obj = ResourceManager.GetObject("marian-kroell-QtJN2yiUvSo-unsplash-cropped-smaller", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marian_kroell_QtJN2yiUvSo_unsplash_cropped_smallerer {
+            get {
+                object obj = ResourceManager.GetObject("marian-kroell-QtJN2yiUvSo-unsplash-cropped-smallerer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marian_kroell_QtJN2yiUvSo_unsplash_verysmall {
+            get {
+                object obj = ResourceManager.GetObject("marian-kroell-QtJN2yiUvSo-unsplash-verysmall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap markus_spiske_VQpOgh5R68I_unsplash {
             get {
                 object obj = ResourceManager.GetObject("markus-spiske-VQpOgh5R68I-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap victor_xok_oyPLmauJzzo_unsplash_med_large {
+            get {
+                object obj = ResourceManager.GetObject("victor-xok-oyPLmauJzzo-unsplash-med-large", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap victor_xok_oyPLmauJzzo_unsplash_mediumer {
+            get {
+                object obj = ResourceManager.GetObject("victor-xok-oyPLmauJzzo-unsplash-mediumer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap victor_xok_oyPLmauJzzo_unsplash_smaller_med_large {
+            get {
+                object obj = ResourceManager.GetObject("victor-xok-oyPLmauJzzo-unsplash-smaller-med-large", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

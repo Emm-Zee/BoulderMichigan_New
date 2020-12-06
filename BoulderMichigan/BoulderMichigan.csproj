@@ -392,6 +392,17 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\alex-motoc-N3yq-z4UFHQ-unsplash-medium.jpg" />
+    <None Include="Resources\alex-motoc-N3yq-z4UFHQ-unsplash-med-large.jpg" />
+    <None Include="Resources\victor-xok-oyPLmauJzzo-unsplash-med-large.jpg" />
+    <None Include="Resources\victor-xok-oyPLmauJzzo-unsplash-smaller-med-large.jpg" />
+    <None Include="Resources\victor-xok-oyPLmauJzzo-unsplash-mediumer.jpg" />
+    <None Include="Resources\marian-kroell-QtJN2yiUvSo-unsplash-cropped.jpg" />
+    <None Include="Resources\marian-kroell-QtJN2yiUvSo-unsplash-cropped-smaller.jpg" />
+    <None Include="Resources\marian-kroell-QtJN2yiUvSo-unsplash-cropped-smallerer.jpg" />
+    <None Include="Resources\marian-kroell-QtJN2yiUvSo-unsplash-cropped_med.jpg" />
+    <None Include="Resources\marian-kroell-QtJN2yiUvSo-unsplash-verysmall.jpg" />
+    <None Include="Resources\marian-kroell-QtJN2yiUvSo-unsplash-500.jpg" />
     <Content Include="Waiver\Waiver.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
