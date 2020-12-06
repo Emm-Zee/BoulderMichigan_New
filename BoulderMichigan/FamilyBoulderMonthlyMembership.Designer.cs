@@ -84,7 +84,13 @@ namespace BoulderMichigan
             this.textBox_4Member4LastName = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.pnl_FourFamilyMember = new System.Windows.Forms.Panel();
+            this.textBox_4FamilyMemberTotal = new System.Windows.Forms.TextBox();
+            this.btn_4FamilyMemberMonthlyJoin = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.pnl_FiveFamilyMember2 = new System.Windows.Forms.Panel();
+            this.textBox_5FamilyMemberTotal = new System.Windows.Forms.TextBox();
+            this.btn_FiveFamilyMember = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.textBox_5Member5LastName = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -107,12 +113,6 @@ namespace BoulderMichigan
             this.label21 = new System.Windows.Forms.Label();
             this.textBox_5Member2FirstName = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox_4FamilyMemberTotal = new System.Windows.Forms.TextBox();
-            this.btn_4FamilyMemberMonthlyJoin = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox_5FamilyMemberTotal = new System.Windows.Forms.TextBox();
-            this.btn_FiveFamilyMember = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
             this.pnl_ThreeFamilyMembers.SuspendLayout();
             this.pnl_FourFamilyMember.SuspendLayout();
             this.pnl_FiveFamilyMember2.SuspendLayout();
@@ -289,6 +289,7 @@ namespace BoulderMichigan
             this.textBox2.Location = new System.Drawing.Point(377, 402);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(862, 44);
             this.textBox2.TabIndex = 138;
             this.textBox2.TabStop = false;
@@ -379,6 +380,7 @@ namespace BoulderMichigan
             this.textBox5.Location = new System.Drawing.Point(10, 14);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(276, 41);
             this.textBox5.TabIndex = 142;
             this.textBox5.TabStop = false;
@@ -430,6 +432,7 @@ namespace BoulderMichigan
             this.textBox6.Location = new System.Drawing.Point(10, 113);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(276, 44);
             this.textBox6.TabIndex = 147;
             this.textBox6.TabStop = false;
@@ -453,6 +456,7 @@ namespace BoulderMichigan
             this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(13, 390);
             this.textBox_WaiverDisclaimer.Multiline = true;
             this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
+            this.textBox_WaiverDisclaimer.ReadOnly = true;
             this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1225, 33);
             this.textBox_WaiverDisclaimer.TabIndex = 149;
             this.textBox_WaiverDisclaimer.TabStop = false;
@@ -484,6 +488,7 @@ namespace BoulderMichigan
             this.textBox3.Location = new System.Drawing.Point(124, 211);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(978, 33);
             this.textBox3.TabIndex = 151;
             this.textBox3.TabStop = false;
@@ -496,6 +501,7 @@ namespace BoulderMichigan
             this.textBox_3FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_3FamilyMemberTotal.Location = new System.Drawing.Point(497, 255);
             this.textBox_3FamilyMemberTotal.Name = "textBox_3FamilyMemberTotal";
+            this.textBox_3FamilyMemberTotal.ReadOnly = true;
             this.textBox_3FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
             this.textBox_3FamilyMemberTotal.TabIndex = 152;
             this.textBox_3FamilyMemberTotal.TabStop = false;
@@ -517,7 +523,7 @@ namespace BoulderMichigan
             this.pnl_ThreeFamilyMembers.Controls.Add(this.label1);
             this.pnl_ThreeFamilyMembers.Controls.Add(this.textBox_3FamilyMember2FirstName);
             this.pnl_ThreeFamilyMembers.Controls.Add(this.label2);
-            this.pnl_ThreeFamilyMembers.Location = new System.Drawing.Point(373, 515);
+            this.pnl_ThreeFamilyMembers.Location = new System.Drawing.Point(373, 519);
             this.pnl_ThreeFamilyMembers.Name = "pnl_ThreeFamilyMembers";
             this.pnl_ThreeFamilyMembers.Size = new System.Drawing.Size(1251, 10);
             this.pnl_ThreeFamilyMembers.TabIndex = 141;
@@ -568,6 +574,7 @@ namespace BoulderMichigan
             this.textBox15.Location = new System.Drawing.Point(11, 10);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
             this.textBox15.Size = new System.Drawing.Size(276, 41);
             this.textBox15.TabIndex = 142;
             this.textBox15.TabStop = false;
@@ -619,6 +626,7 @@ namespace BoulderMichigan
             this.textBox12.Location = new System.Drawing.Point(10, 90);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(276, 44);
             this.textBox12.TabIndex = 147;
             this.textBox12.TabStop = false;
@@ -632,6 +640,7 @@ namespace BoulderMichigan
             this.textBox11.Location = new System.Drawing.Point(13, 452);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
             this.textBox11.Size = new System.Drawing.Size(1225, 33);
             this.textBox11.TabIndex = 149;
             this.textBox11.TabStop = false;
@@ -646,6 +655,7 @@ namespace BoulderMichigan
             this.textBox10.Location = new System.Drawing.Point(124, 278);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
             this.textBox10.Size = new System.Drawing.Size(978, 33);
             this.textBox10.TabIndex = 151;
             this.textBox10.TabStop = false;
@@ -697,6 +707,7 @@ namespace BoulderMichigan
             this.textBox18.Location = new System.Drawing.Point(8, 174);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
+            this.textBox18.ReadOnly = true;
             this.textBox18.Size = new System.Drawing.Size(276, 44);
             this.textBox18.TabIndex = 157;
             this.textBox18.TabStop = false;
@@ -724,10 +735,49 @@ namespace BoulderMichigan
             this.pnl_FourFamilyMember.Controls.Add(this.label12);
             this.pnl_FourFamilyMember.Controls.Add(this.textBox_4Member2FirstName);
             this.pnl_FourFamilyMember.Controls.Add(this.label13);
-            this.pnl_FourFamilyMember.Location = new System.Drawing.Point(371, 537);
+            this.pnl_FourFamilyMember.Location = new System.Drawing.Point(371, 520);
             this.pnl_FourFamilyMember.Name = "pnl_FourFamilyMember";
-            this.pnl_FourFamilyMember.Size = new System.Drawing.Size(1251, 0);
+            this.pnl_FourFamilyMember.Size = new System.Drawing.Size(1251, 10);
             this.pnl_FourFamilyMember.TabIndex = 154;
+            // 
+            // textBox_4FamilyMemberTotal
+            // 
+            this.textBox_4FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
+            this.textBox_4FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_4FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_4FamilyMemberTotal.Location = new System.Drawing.Point(568, 330);
+            this.textBox_4FamilyMemberTotal.Name = "textBox_4FamilyMemberTotal";
+            this.textBox_4FamilyMemberTotal.ReadOnly = true;
+            this.textBox_4FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
+            this.textBox_4FamilyMemberTotal.TabIndex = 160;
+            this.textBox_4FamilyMemberTotal.TabStop = false;
+            // 
+            // btn_4FamilyMemberMonthlyJoin
+            // 
+            this.btn_4FamilyMemberMonthlyJoin.BackColor = System.Drawing.Color.Transparent;
+            this.btn_4FamilyMemberMonthlyJoin.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
+            this.btn_4FamilyMemberMonthlyJoin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_4FamilyMemberMonthlyJoin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_4FamilyMemberMonthlyJoin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_4FamilyMemberMonthlyJoin.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_4FamilyMemberMonthlyJoin.ForeColor = System.Drawing.Color.Goldenrod;
+            this.btn_4FamilyMemberMonthlyJoin.Location = new System.Drawing.Point(535, 388);
+            this.btn_4FamilyMemberMonthlyJoin.Name = "btn_4FamilyMemberMonthlyJoin";
+            this.btn_4FamilyMemberMonthlyJoin.Size = new System.Drawing.Size(136, 53);
+            this.btn_4FamilyMemberMonthlyJoin.TabIndex = 159;
+            this.btn_4FamilyMemberMonthlyJoin.Text = "Join";
+            this.btn_4FamilyMemberMonthlyJoin.UseVisualStyleBackColor = false;
+            this.btn_4FamilyMemberMonthlyJoin.Click += new System.EventHandler(this.btn_4FamilyMemberMonthlyJoin_Click_1);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(415, 327);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(158, 42);
+            this.label9.TabIndex = 158;
+            this.label9.Text = "Total: ";
             // 
             // pnl_FiveFamilyMember2
             // 
@@ -756,10 +806,49 @@ namespace BoulderMichigan
             this.pnl_FiveFamilyMember2.Controls.Add(this.label21);
             this.pnl_FiveFamilyMember2.Controls.Add(this.textBox_5Member2FirstName);
             this.pnl_FiveFamilyMember2.Controls.Add(this.label22);
-            this.pnl_FiveFamilyMember2.Location = new System.Drawing.Point(369, 515);
+            this.pnl_FiveFamilyMember2.Location = new System.Drawing.Point(369, 520);
             this.pnl_FiveFamilyMember2.Name = "pnl_FiveFamilyMember2";
             this.pnl_FiveFamilyMember2.Size = new System.Drawing.Size(1251, 10);
             this.pnl_FiveFamilyMember2.TabIndex = 158;
+            // 
+            // textBox_5FamilyMemberTotal
+            // 
+            this.textBox_5FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
+            this.textBox_5FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_5FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_5FamilyMemberTotal.Location = new System.Drawing.Point(547, 399);
+            this.textBox_5FamilyMemberTotal.Name = "textBox_5FamilyMemberTotal";
+            this.textBox_5FamilyMemberTotal.ReadOnly = true;
+            this.textBox_5FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
+            this.textBox_5FamilyMemberTotal.TabIndex = 165;
+            this.textBox_5FamilyMemberTotal.TabStop = false;
+            // 
+            // btn_FiveFamilyMember
+            // 
+            this.btn_FiveFamilyMember.BackColor = System.Drawing.Color.Transparent;
+            this.btn_FiveFamilyMember.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
+            this.btn_FiveFamilyMember.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn_FiveFamilyMember.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.btn_FiveFamilyMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FiveFamilyMember.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_FiveFamilyMember.ForeColor = System.Drawing.Color.Goldenrod;
+            this.btn_FiveFamilyMember.Location = new System.Drawing.Point(514, 457);
+            this.btn_FiveFamilyMember.Name = "btn_FiveFamilyMember";
+            this.btn_FiveFamilyMember.Size = new System.Drawing.Size(136, 53);
+            this.btn_FiveFamilyMember.TabIndex = 164;
+            this.btn_FiveFamilyMember.Text = "Join";
+            this.btn_FiveFamilyMember.UseVisualStyleBackColor = false;
+            this.btn_FiveFamilyMember.Click += new System.EventHandler(this.btn_FiveFamilyMember_Click_1);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(394, 396);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(158, 42);
+            this.label18.TabIndex = 163;
+            this.label18.Text = "Total: ";
             // 
             // textBox23
             // 
@@ -769,6 +858,7 @@ namespace BoulderMichigan
             this.textBox23.Location = new System.Drawing.Point(10, 263);
             this.textBox23.Multiline = true;
             this.textBox23.Name = "textBox23";
+            this.textBox23.ReadOnly = true;
             this.textBox23.Size = new System.Drawing.Size(276, 44);
             this.textBox23.TabIndex = 162;
             this.textBox23.TabStop = false;
@@ -820,6 +910,7 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(8, 174);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(276, 44);
             this.textBox1.TabIndex = 157;
             this.textBox1.TabStop = false;
@@ -871,6 +962,7 @@ namespace BoulderMichigan
             this.textBox13.Location = new System.Drawing.Point(124, 353);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
+            this.textBox13.ReadOnly = true;
             this.textBox13.Size = new System.Drawing.Size(978, 33);
             this.textBox13.TabIndex = 151;
             this.textBox13.TabStop = false;
@@ -884,6 +976,7 @@ namespace BoulderMichigan
             this.textBox14.Location = new System.Drawing.Point(13, 527);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
+            this.textBox14.ReadOnly = true;
             this.textBox14.Size = new System.Drawing.Size(1225, 33);
             this.textBox14.TabIndex = 149;
             this.textBox14.TabStop = false;
@@ -898,6 +991,7 @@ namespace BoulderMichigan
             this.textBox16.Location = new System.Drawing.Point(10, 90);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
+            this.textBox16.ReadOnly = true;
             this.textBox16.Size = new System.Drawing.Size(276, 44);
             this.textBox16.TabIndex = 147;
             this.textBox16.TabStop = false;
@@ -949,6 +1043,7 @@ namespace BoulderMichigan
             this.textBox20.Location = new System.Drawing.Point(11, 10);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
+            this.textBox20.ReadOnly = true;
             this.textBox20.Size = new System.Drawing.Size(276, 41);
             this.textBox20.TabIndex = 142;
             this.textBox20.TabStop = false;
@@ -991,82 +1086,6 @@ namespace BoulderMichigan
             this.label22.Size = new System.Drawing.Size(167, 30);
             this.label22.TabIndex = 116;
             this.label22.Text = "First Name";
-            // 
-            // textBox_4FamilyMemberTotal
-            // 
-            this.textBox_4FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
-            this.textBox_4FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_4FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_4FamilyMemberTotal.Location = new System.Drawing.Point(568, 330);
-            this.textBox_4FamilyMemberTotal.Name = "textBox_4FamilyMemberTotal";
-            this.textBox_4FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
-            this.textBox_4FamilyMemberTotal.TabIndex = 160;
-            this.textBox_4FamilyMemberTotal.TabStop = false;
-            // 
-            // btn_4FamilyMemberMonthlyJoin
-            // 
-            this.btn_4FamilyMemberMonthlyJoin.BackColor = System.Drawing.Color.Transparent;
-            this.btn_4FamilyMemberMonthlyJoin.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
-            this.btn_4FamilyMemberMonthlyJoin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_4FamilyMemberMonthlyJoin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_4FamilyMemberMonthlyJoin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_4FamilyMemberMonthlyJoin.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_4FamilyMemberMonthlyJoin.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_4FamilyMemberMonthlyJoin.Location = new System.Drawing.Point(535, 388);
-            this.btn_4FamilyMemberMonthlyJoin.Name = "btn_4FamilyMemberMonthlyJoin";
-            this.btn_4FamilyMemberMonthlyJoin.Size = new System.Drawing.Size(136, 53);
-            this.btn_4FamilyMemberMonthlyJoin.TabIndex = 159;
-            this.btn_4FamilyMemberMonthlyJoin.Text = "Join";
-            this.btn_4FamilyMemberMonthlyJoin.UseVisualStyleBackColor = false;
-            this.btn_4FamilyMemberMonthlyJoin.Click += new System.EventHandler(this.btn_4FamilyMemberMonthlyJoin_Click_1);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(415, 327);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(158, 42);
-            this.label9.TabIndex = 158;
-            this.label9.Text = "Total: ";
-            // 
-            // textBox_5FamilyMemberTotal
-            // 
-            this.textBox_5FamilyMemberTotal.BackColor = System.Drawing.Color.DimGray;
-            this.textBox_5FamilyMemberTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_5FamilyMemberTotal.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_5FamilyMemberTotal.Location = new System.Drawing.Point(547, 399);
-            this.textBox_5FamilyMemberTotal.Name = "textBox_5FamilyMemberTotal";
-            this.textBox_5FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
-            this.textBox_5FamilyMemberTotal.TabIndex = 165;
-            this.textBox_5FamilyMemberTotal.TabStop = false;
-            // 
-            // btn_FiveFamilyMember
-            // 
-            this.btn_FiveFamilyMember.BackColor = System.Drawing.Color.Transparent;
-            this.btn_FiveFamilyMember.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
-            this.btn_FiveFamilyMember.FlatAppearance.MouseDownBackColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_FiveFamilyMember.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.btn_FiveFamilyMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_FiveFamilyMember.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_FiveFamilyMember.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_FiveFamilyMember.Location = new System.Drawing.Point(514, 457);
-            this.btn_FiveFamilyMember.Name = "btn_FiveFamilyMember";
-            this.btn_FiveFamilyMember.Size = new System.Drawing.Size(136, 53);
-            this.btn_FiveFamilyMember.TabIndex = 164;
-            this.btn_FiveFamilyMember.Text = "Join";
-            this.btn_FiveFamilyMember.UseVisualStyleBackColor = false;
-            this.btn_FiveFamilyMember.Click += new System.EventHandler(this.btn_FiveFamilyMember_Click_1);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(394, 396);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(158, 42);
-            this.label18.TabIndex = 163;
-            this.label18.Text = "Total: ";
             // 
             // frm_FamilyBoulderMonthlyMembership
             // 

@@ -159,7 +159,7 @@ namespace BoulderMichigan
             this.lbl_Total.Name = "lbl_Total";
             this.lbl_Total.Size = new System.Drawing.Size(322, 42);
             this.lbl_Total.TabIndex = 36;
-            this.lbl_Total.Text = "Total: $220.00";
+            this.lbl_Total.Text = "Total: $200.00";
             // 
             // textBox_State
             // 

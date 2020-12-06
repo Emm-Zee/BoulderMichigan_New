@@ -143,6 +143,7 @@ namespace BoulderMichigan
             this.textBox2.Location = new System.Drawing.Point(664, 293);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(610, 182);
             this.textBox2.TabIndex = 49;
             this.textBox2.TabStop = false;

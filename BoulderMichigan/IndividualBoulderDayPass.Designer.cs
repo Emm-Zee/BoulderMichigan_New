@@ -66,7 +66,7 @@ namespace BoulderMichigan
             this.btn_Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Book.Font = new System.Drawing.Font("OPTICopperplate-Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Book.ForeColor = System.Drawing.Color.Goldenrod;
-            this.btn_Book.Location = new System.Drawing.Point(694, 861);
+            this.btn_Book.Location = new System.Drawing.Point(781, 861);
             this.btn_Book.Name = "btn_Book";
             this.btn_Book.Size = new System.Drawing.Size(148, 53);
             this.btn_Book.TabIndex = 47;
@@ -77,7 +77,7 @@ namespace BoulderMichigan
             // dateTimePicker_FitnessLabDayPass
             // 
             this.dateTimePicker_FitnessLabDayPass.Font = new System.Drawing.Font("OPTICopperplate Heavy", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker_FitnessLabDayPass.Location = new System.Drawing.Point(552, 540);
+            this.dateTimePicker_FitnessLabDayPass.Location = new System.Drawing.Point(639, 540);
             this.dateTimePicker_FitnessLabDayPass.Name = "dateTimePicker_FitnessLabDayPass";
             this.dateTimePicker_FitnessLabDayPass.Size = new System.Drawing.Size(492, 33);
             this.dateTimePicker_FitnessLabDayPass.TabIndex = 46;
@@ -85,7 +85,7 @@ namespace BoulderMichigan
             // textBox_Email
             // 
             this.textBox_Email.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Email.Location = new System.Drawing.Point(499, 391);
+            this.textBox_Email.Location = new System.Drawing.Point(586, 391);
             this.textBox_Email.MaxLength = 60;
             this.textBox_Email.Name = "textBox_Email";
             this.textBox_Email.Size = new System.Drawing.Size(796, 30);
@@ -95,7 +95,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Email.AutoSize = true;
             this.lbl_Email.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Email.Location = new System.Drawing.Point(397, 390);
+            this.lbl_Email.Location = new System.Drawing.Point(484, 390);
             this.lbl_Email.Name = "lbl_Email";
             this.lbl_Email.Size = new System.Drawing.Size(90, 30);
             this.lbl_Email.TabIndex = 44;
@@ -104,7 +104,7 @@ namespace BoulderMichigan
             // textBox_Phone
             // 
             this.textBox_Phone.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Phone.Location = new System.Drawing.Point(965, 341);
+            this.textBox_Phone.Location = new System.Drawing.Point(1052, 341);
             this.textBox_Phone.MaxLength = 10;
             this.textBox_Phone.Name = "textBox_Phone";
             this.textBox_Phone.Size = new System.Drawing.Size(330, 30);
@@ -114,7 +114,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Phone.AutoSize = true;
             this.lbl_Phone.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Phone.Location = new System.Drawing.Point(853, 340);
+            this.lbl_Phone.Location = new System.Drawing.Point(940, 340);
             this.lbl_Phone.Name = "lbl_Phone";
             this.lbl_Phone.Size = new System.Drawing.Size(101, 30);
             this.lbl_Phone.TabIndex = 42;
@@ -125,7 +125,7 @@ namespace BoulderMichigan
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Showcard Gothic", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label3.Location = new System.Drawing.Point(328, 54);
+            this.label3.Location = new System.Drawing.Point(415, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(1015, 54);
             this.label3.TabIndex = 41;
@@ -136,9 +136,10 @@ namespace BoulderMichigan
             this.textBox_WaiverDisclaimer.BackColor = System.Drawing.Color.DimGray;
             this.textBox_WaiverDisclaimer.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_WaiverDisclaimer.Font = new System.Drawing.Font("OPTICopperplate-Light", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(190, 969);
+            this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(277, 969);
             this.textBox_WaiverDisclaimer.Multiline = true;
             this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
+            this.textBox_WaiverDisclaimer.ReadOnly = true;
             this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1269, 33);
             this.textBox_WaiverDisclaimer.TabIndex = 40;
             this.textBox_WaiverDisclaimer.TabStop = false;
@@ -149,7 +150,7 @@ namespace BoulderMichigan
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(436, 478);
+            this.label1.Location = new System.Drawing.Point(523, 478);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(771, 30);
             this.label1.TabIndex = 39;
@@ -158,7 +159,7 @@ namespace BoulderMichigan
             // textBox_ZipCode
             // 
             this.textBox_ZipCode.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ZipCode.Location = new System.Drawing.Point(499, 341);
+            this.textBox_ZipCode.Location = new System.Drawing.Point(586, 341);
             this.textBox_ZipCode.MaxLength = 5;
             this.textBox_ZipCode.Name = "textBox_ZipCode";
             this.textBox_ZipCode.Size = new System.Drawing.Size(330, 30);
@@ -168,7 +169,7 @@ namespace BoulderMichigan
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(367, 340);
+            this.label2.Location = new System.Drawing.Point(454, 340);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 30);
             this.label2.TabIndex = 37;
@@ -178,7 +179,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Total.AutoSize = true;
             this.lbl_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Total.Location = new System.Drawing.Point(608, 785);
+            this.lbl_Total.Location = new System.Drawing.Point(695, 785);
             this.lbl_Total.Name = "lbl_Total";
             this.lbl_Total.Size = new System.Drawing.Size(146, 42);
             this.lbl_Total.TabIndex = 36;
@@ -187,7 +188,7 @@ namespace BoulderMichigan
             // textBox_State
             // 
             this.textBox_State.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_State.Location = new System.Drawing.Point(965, 290);
+            this.textBox_State.Location = new System.Drawing.Point(1052, 290);
             this.textBox_State.MaxLength = 20;
             this.textBox_State.Name = "textBox_State";
             this.textBox_State.Size = new System.Drawing.Size(330, 30);
@@ -197,7 +198,7 @@ namespace BoulderMichigan
             // 
             this.lbl_State.AutoSize = true;
             this.lbl_State.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_State.Location = new System.Drawing.Point(856, 289);
+            this.lbl_State.Location = new System.Drawing.Point(943, 289);
             this.lbl_State.Name = "lbl_State";
             this.lbl_State.Size = new System.Drawing.Size(99, 30);
             this.lbl_State.TabIndex = 34;
@@ -206,7 +207,7 @@ namespace BoulderMichigan
             // textBox_City
             // 
             this.textBox_City.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_City.Location = new System.Drawing.Point(499, 294);
+            this.textBox_City.Location = new System.Drawing.Point(586, 294);
             this.textBox_City.MaxLength = 20;
             this.textBox_City.Name = "textBox_City";
             this.textBox_City.Size = new System.Drawing.Size(330, 30);
@@ -216,7 +217,7 @@ namespace BoulderMichigan
             // 
             this.lbl_City.AutoSize = true;
             this.lbl_City.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_City.Location = new System.Drawing.Point(412, 293);
+            this.lbl_City.Location = new System.Drawing.Point(499, 293);
             this.lbl_City.Name = "lbl_City";
             this.lbl_City.Size = new System.Drawing.Size(75, 30);
             this.lbl_City.TabIndex = 32;
@@ -225,7 +226,7 @@ namespace BoulderMichigan
             // textBox_StreetAddress
             // 
             this.textBox_StreetAddress.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_StreetAddress.Location = new System.Drawing.Point(499, 243);
+            this.textBox_StreetAddress.Location = new System.Drawing.Point(586, 243);
             this.textBox_StreetAddress.MaxLength = 60;
             this.textBox_StreetAddress.Name = "textBox_StreetAddress";
             this.textBox_StreetAddress.Size = new System.Drawing.Size(796, 30);
@@ -235,7 +236,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Address.AutoSize = true;
             this.lbl_Address.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Address.Location = new System.Drawing.Point(353, 242);
+            this.lbl_Address.Location = new System.Drawing.Point(440, 242);
             this.lbl_Address.Name = "lbl_Address";
             this.lbl_Address.Size = new System.Drawing.Size(133, 30);
             this.lbl_Address.TabIndex = 30;
@@ -244,7 +245,7 @@ namespace BoulderMichigan
             // textBox_LastName
             // 
             this.textBox_LastName.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_LastName.Location = new System.Drawing.Point(989, 190);
+            this.textBox_LastName.Location = new System.Drawing.Point(1076, 190);
             this.textBox_LastName.MaxLength = 20;
             this.textBox_LastName.Name = "textBox_LastName";
             this.textBox_LastName.Size = new System.Drawing.Size(306, 30);
@@ -254,7 +255,7 @@ namespace BoulderMichigan
             // 
             this.lbl_LastName.AutoSize = true;
             this.lbl_LastName.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_LastName.Location = new System.Drawing.Point(817, 190);
+            this.lbl_LastName.Location = new System.Drawing.Point(904, 190);
             this.lbl_LastName.Name = "lbl_LastName";
             this.lbl_LastName.Size = new System.Drawing.Size(161, 30);
             this.lbl_LastName.TabIndex = 28;
@@ -263,7 +264,7 @@ namespace BoulderMichigan
             // textBox_FirstName
             // 
             this.textBox_FirstName.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_FirstName.Location = new System.Drawing.Point(499, 193);
+            this.textBox_FirstName.Location = new System.Drawing.Point(586, 193);
             this.textBox_FirstName.MaxLength = 20;
             this.textBox_FirstName.Name = "textBox_FirstName";
             this.textBox_FirstName.Size = new System.Drawing.Size(287, 30);
@@ -273,7 +274,7 @@ namespace BoulderMichigan
             // 
             this.lbl_FirstName.AutoSize = true;
             this.lbl_FirstName.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_FirstName.Location = new System.Drawing.Point(317, 191);
+            this.lbl_FirstName.Location = new System.Drawing.Point(404, 191);
             this.lbl_FirstName.Name = "lbl_FirstName";
             this.lbl_FirstName.Size = new System.Drawing.Size(167, 30);
             this.lbl_FirstName.TabIndex = 26;
@@ -284,7 +285,7 @@ namespace BoulderMichigan
             this.textBox2.BackColor = System.Drawing.Color.DimGray;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("OPTICopperplate Heavy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(572, 636);
+            this.textBox2.Location = new System.Drawing.Point(659, 636);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(293, 44);
@@ -296,7 +297,7 @@ namespace BoulderMichigan
             // 
             this.radioButton_FullDay.AutoSize = true;
             this.radioButton_FullDay.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton_FullDay.Location = new System.Drawing.Point(614, 733);
+            this.radioButton_FullDay.Location = new System.Drawing.Point(701, 733);
             this.radioButton_FullDay.Name = "radioButton_FullDay";
             this.radioButton_FullDay.Size = new System.Drawing.Size(323, 31);
             this.radioButton_FullDay.TabIndex = 116;
@@ -309,7 +310,7 @@ namespace BoulderMichigan
             // 
             this.radioButton_HalfDay.AutoSize = true;
             this.radioButton_HalfDay.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton_HalfDay.Location = new System.Drawing.Point(615, 696);
+            this.radioButton_HalfDay.Location = new System.Drawing.Point(702, 696);
             this.radioButton_HalfDay.Name = "radioButton_HalfDay";
             this.radioButton_HalfDay.Size = new System.Drawing.Size(327, 31);
             this.radioButton_HalfDay.TabIndex = 115;
@@ -323,10 +324,11 @@ namespace BoulderMichigan
             this.textBox_Total.BackColor = System.Drawing.Color.DimGray;
             this.textBox_Total.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Total.Location = new System.Drawing.Point(756, 787);
+            this.textBox_Total.Location = new System.Drawing.Point(843, 787);
             this.textBox_Total.Name = "textBox_Total";
             this.textBox_Total.Size = new System.Drawing.Size(172, 42);
             this.textBox_Total.TabIndex = 118;
+            this.textBox_Total.TabStop = false;
             // 
             // frm_IndividualBoulderDayPass
             // 

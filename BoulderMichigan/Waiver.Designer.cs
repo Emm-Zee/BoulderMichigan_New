@@ -30,6 +30,7 @@ namespace BoulderMichigan
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.bookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.servicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.djdjjdjToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.waiverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,7 +40,6 @@ namespace BoulderMichigan
             this.lbl_Waiver = new System.Windows.Forms.Label();
             this.btn_DownloadWaiver = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.bookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,49 +59,56 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(186, 1000);
+            this.menuStrip1.Size = new System.Drawing.Size(58, 1000);
             this.menuStrip1.TabIndex = 22;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
+            // 
+            // bookToolStripMenuItem
+            // 
+            this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
+            this.bookToolStripMenuItem.Size = new System.Drawing.Size(45, 106);
+            this.bookToolStripMenuItem.Text = "Book";
+            this.bookToolStripMenuItem.Click += new System.EventHandler(this.bookToolStripMenuItem_Click_1);
             // 
             // servicesToolStripMenuItem
             // 
             this.servicesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.djdjjdjToolStripMenuItem});
             this.servicesToolStripMenuItem.Name = "servicesToolStripMenuItem";
-            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(173, 169);
+            this.servicesToolStripMenuItem.Size = new System.Drawing.Size(45, 169);
             this.servicesToolStripMenuItem.Text = "Services";
             this.servicesToolStripMenuItem.Click += new System.EventHandler(this.servicesToolStripMenuItem_Click);
             // 
             // djdjjdjToolStripMenuItem
             // 
             this.djdjjdjToolStripMenuItem.Name = "djdjjdjToolStripMenuItem";
-            this.djdjjdjToolStripMenuItem.Size = new System.Drawing.Size(270, 44);
+            this.djdjjdjToolStripMenuItem.Size = new System.Drawing.Size(247, 44);
             this.djdjjdjToolStripMenuItem.Text = "djdjjdj";
             // 
             // waiverToolStripMenuItem
             // 
             this.waiverToolStripMenuItem.Name = "waiverToolStripMenuItem";
-            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(173, 4);
+            this.waiverToolStripMenuItem.Size = new System.Drawing.Size(45, 4);
             // 
             // fAQToolStripMenuItem
             // 
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(173, 91);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(45, 91);
             this.fAQToolStripMenuItem.Text = "FAQ";
             this.fAQToolStripMenuItem.Click += new System.EventHandler(this.fAQToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(173, 127);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(45, 127);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(173, 94);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(45, 94);
             this.exitToolStripMenuItem.Text = "Quit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -145,18 +152,13 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(505, 247);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1196, 137);
             this.textBox1.TabIndex = 28;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "All visitors must sign the waiver before using Boulder Michigan Inc.\'s facilities" +
     ". \r\n\r\n\r\nPlease click the link below to view the waiver. ";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // bookToolStripMenuItem
-            // 
-            this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
-            this.bookToolStripMenuItem.Size = new System.Drawing.Size(173, 106);
-            this.bookToolStripMenuItem.Text = "Book";
-            this.bookToolStripMenuItem.Click += new System.EventHandler(this.bookToolStripMenuItem_Click_1);
             // 
             // frm_Waiver
             // 

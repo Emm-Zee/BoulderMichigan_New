@@ -140,7 +140,7 @@ namespace BoulderMichigan
             this.lbl_Class_Cost.AutoSize = true;
             this.lbl_Class_Cost.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Class_Cost.ForeColor = System.Drawing.Color.White;
-            this.lbl_Class_Cost.Location = new System.Drawing.Point(933, 525);
+            this.lbl_Class_Cost.Location = new System.Drawing.Point(942, 525);
             this.lbl_Class_Cost.Name = "lbl_Class_Cost";
             this.lbl_Class_Cost.Size = new System.Drawing.Size(96, 42);
             this.lbl_Class_Cost.TabIndex = 45;
@@ -153,9 +153,10 @@ namespace BoulderMichigan
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(724, 342);
+            this.textBox1.Location = new System.Drawing.Point(734, 342);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(497, 164);
             this.textBox1.TabIndex = 50;
             this.textBox1.TabStop = false;

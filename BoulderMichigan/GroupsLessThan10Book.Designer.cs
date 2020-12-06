@@ -53,10 +53,11 @@ namespace BoulderMichigan
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(445, 393);
+            this.textBox2.Location = new System.Drawing.Point(407, 393);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(996, 143);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(1072, 143);
             this.textBox2.TabIndex = 52;
             this.textBox2.TabStop = false;
             this.textBox2.Text = resources.GetString("textBox2.Text");
@@ -84,7 +85,7 @@ namespace BoulderMichigan
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1274, 852);
+            this.ClientSize = new System.Drawing.Size(1546, 852);
             this.Controls.Add(this.btn_ReturnToBookingMenu);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lbl_Book);

@@ -60,6 +60,7 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(674, 664);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1225, 33);
             this.textBox1.TabIndex = 74;
             this.textBox1.TabStop = false;
@@ -252,6 +253,7 @@ namespace BoulderMichigan
             this.textBox_WaiverDisclaimer.Location = new System.Drawing.Point(594, 737);
             this.textBox_WaiverDisclaimer.Multiline = true;
             this.textBox_WaiverDisclaimer.Name = "textBox_WaiverDisclaimer";
+            this.textBox_WaiverDisclaimer.ReadOnly = true;
             this.textBox_WaiverDisclaimer.Size = new System.Drawing.Size(1225, 33);
             this.textBox_WaiverDisclaimer.TabIndex = 55;
             this.textBox_WaiverDisclaimer.TabStop = false;

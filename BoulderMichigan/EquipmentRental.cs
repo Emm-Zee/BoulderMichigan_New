@@ -51,10 +51,9 @@ namespace BoulderMichigan
             FAQForm.Show();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
-
     }
 }

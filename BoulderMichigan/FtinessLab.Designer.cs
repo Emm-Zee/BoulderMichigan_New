@@ -44,6 +44,7 @@ namespace BoulderMichigan
             this.lbl_MonthlyLab = new System.Windows.Forms.Label();
             this.lbl_Annually2 = new System.Windows.Forms.Label();
             this.lbl_AnnualLab = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -193,12 +194,31 @@ namespace BoulderMichigan
             this.lbl_AnnualLab.TabIndex = 52;
             this.lbl_AnnualLab.Text = "Annually";
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.DimGray;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(288, 197);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(1335, 106);
+            this.textBox1.TabIndex = 54;
+            this.textBox1.TabStop = false;
+            this.textBox1.Text = "Our state-of-the-art fitness facility is complete with low-impact cardio equipmen" +
+    "t, weight machines, free weights, massage chairs and a sauna. A membership is no" +
+    "t required to access our facility.";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // frm_FitnessLab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1729, 1050);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_Annually2);
             this.Controls.Add(this.lbl_AnnualLab);
             this.Controls.Add(this.lbl_MonthlyLab2);
@@ -236,5 +256,6 @@ namespace BoulderMichigan
         private System.Windows.Forms.Label lbl_MonthlyLab;
         private System.Windows.Forms.Label lbl_Annually2;
         private System.Windows.Forms.Label lbl_AnnualLab;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

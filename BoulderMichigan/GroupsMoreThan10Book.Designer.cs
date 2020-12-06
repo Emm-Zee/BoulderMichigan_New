@@ -58,10 +58,11 @@ namespace BoulderMichigan
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("OPTICopperplate-Light", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(440, 391);
+            this.textBox2.Location = new System.Drawing.Point(418, 391);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(996, 143);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(1051, 143);
             this.textBox2.TabIndex = 55;
             this.textBox2.TabStop = false;
             this.textBox2.Text = resources.GetString("textBox2.Text");

@@ -129,8 +129,10 @@ namespace BoulderMichigan
             this.richTextBox3.ForeColor = System.Drawing.Color.White;
             this.richTextBox3.Location = new System.Drawing.Point(890, 173);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(405, 62);
             this.richTextBox3.TabIndex = 48;
+            this.richTextBox3.TabStop = false;
             this.richTextBox3.Text = "[Established 2020]";
             this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
             // 
@@ -153,8 +155,10 @@ namespace BoulderMichigan
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
             this.richTextBox2.Location = new System.Drawing.Point(895, 883);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(358, 68);
             this.richTextBox2.TabIndex = 50;
+            this.richTextBox2.TabStop = false;
             this.richTextBox2.Text = "231.409.0000";
             // 
             // richTextBox4
@@ -165,8 +169,10 @@ namespace BoulderMichigan
             this.richTextBox4.ForeColor = System.Drawing.Color.Goldenrod;
             this.richTextBox4.Location = new System.Drawing.Point(913, 928);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(291, 50);
             this.richTextBox4.TabIndex = 51;
+            this.richTextBox4.TabStop = false;
             this.richTextBox4.Text = "www.bouldermi.com";
             // 
             // textBox2
@@ -178,8 +184,10 @@ namespace BoulderMichigan
             this.textBox2.Location = new System.Drawing.Point(744, 311);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(610, 147);
             this.textBox2.TabIndex = 54;
+            this.textBox2.TabStop = false;
             this.textBox2.Text = "2020 Rock Road\r\nTraverse City, MI\r\n49686\r\n";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -192,8 +200,10 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(753, 590);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(610, 257);
             this.textBox1.TabIndex = 55;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "Monday: 2pm – 10 pm\r\nTuesday: 12 pm – 10 pm\r\nWednesday: 2 pm – 9 pm\r\nThursday: 12" +
     " pm – 10 pm\r\nFriday: 12 pm – 10 pm\r\nSaturday: 9 am – 10 pm\r\nSunday: 11 am – 10 p" +
     "m\r\n";

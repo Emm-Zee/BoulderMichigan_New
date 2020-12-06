@@ -128,6 +128,7 @@ namespace BoulderMichigan
             this.btn_FAQ1.Name = "btn_FAQ1";
             this.btn_FAQ1.Size = new System.Drawing.Size(340, 113);
             this.btn_FAQ1.TabIndex = 25;
+            this.btn_FAQ1.TabStop = false;
             this.btn_FAQ1.Text = "I’m new here. How do I get started?";
             this.btn_FAQ1.UseVisualStyleBackColor = false;
             this.btn_FAQ1.Click += new System.EventHandler(this.btn_FAQ1_Click);
@@ -144,6 +145,7 @@ namespace BoulderMichigan
             this.btn_FAQ2.Name = "btn_FAQ2";
             this.btn_FAQ2.Size = new System.Drawing.Size(340, 113);
             this.btn_FAQ2.TabIndex = 26;
+            this.btn_FAQ2.TabStop = false;
             this.btn_FAQ2.Text = "What should I wear? ";
             this.btn_FAQ2.UseVisualStyleBackColor = false;
             this.btn_FAQ2.Click += new System.EventHandler(this.btn_FAQ2_Click);
@@ -160,6 +162,7 @@ namespace BoulderMichigan
             this.btn_FAQ3.Name = "btn_FAQ3";
             this.btn_FAQ3.Size = new System.Drawing.Size(340, 113);
             this.btn_FAQ3.TabIndex = 27;
+            this.btn_FAQ3.TabStop = false;
             this.btn_FAQ3.Text = "Is bouldering dangerous?";
             this.btn_FAQ3.UseVisualStyleBackColor = false;
             this.btn_FAQ3.Click += new System.EventHandler(this.btn_FAQ3_Click);

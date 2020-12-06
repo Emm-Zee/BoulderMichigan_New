@@ -158,8 +158,10 @@ namespace BoulderMichigan
             this.textBox3.Location = new System.Drawing.Point(496, 741);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(972, 61);
             this.textBox3.TabIndex = 49;
+            this.textBox3.TabStop = false;
             this.textBox3.Text = "[ Includes access to weightlifting facility, massage chairs and one private lesso" +
     "n for each member in membership ]\r\n";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -173,8 +175,10 @@ namespace BoulderMichigan
             this.textBox2.Location = new System.Drawing.Point(757, 824);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(466, 564);
             this.textBox2.TabIndex = 48;
+            this.textBox2.TabStop = false;
             this.textBox2.Text = "Individual\r\n$750\r\n\r\nCouples\r\n$1,200\r\n\r\nFamily membership (3 member)\r\n$1,600\r\n\r\nFa" +
     "mily membership (4 members)\r\n$1,900\r\n\r\nFamily membership (5 members)\r\n$2,100\r\n";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -188,8 +192,10 @@ namespace BoulderMichigan
             this.textBox1.Location = new System.Drawing.Point(757, 281);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(466, 404);
             this.textBox1.TabIndex = 47;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "Individual\r\n$75\r\n\r\nCouples\r\n$125\r\n\r\nFamily membership (3 member)\r\n$170\r\n\r\nFamily " +
     "membership (4 members)\r\n$200\r\n\r\nFamily membership (5 members)\r\n$220";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -202,8 +208,10 @@ namespace BoulderMichigan
             this.richTextBox5.ForeColor = System.Drawing.Color.White;
             this.richTextBox5.Location = new System.Drawing.Point(570, 232);
             this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(873, 43);
             this.richTextBox5.TabIndex = 46;
+            this.richTextBox5.TabStop = false;
             this.richTextBox5.Text = "[ Includes access to weightlifting facility, and massage chairs ]";
             // 
             // frm_Memberships

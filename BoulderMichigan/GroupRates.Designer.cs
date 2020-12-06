@@ -62,7 +62,7 @@ namespace BoulderMichigan
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(58, 858);
+            this.menuStrip1.Size = new System.Drawing.Size(61, 858);
             this.menuStrip1.TabIndex = 36;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
@@ -121,9 +121,9 @@ namespace BoulderMichigan
             this.lbl_GroupRates.ForeColor = System.Drawing.Color.Goldenrod;
             this.lbl_GroupRates.Location = new System.Drawing.Point(852, 89);
             this.lbl_GroupRates.Name = "lbl_GroupRates";
-            this.lbl_GroupRates.Size = new System.Drawing.Size(344, 60);
+            this.lbl_GroupRates.Size = new System.Drawing.Size(355, 60);
             this.lbl_GroupRates.TabIndex = 35;
-            this.lbl_GroupRates.Text = "GroupRates";
+            this.lbl_GroupRates.Text = "Group Rates";
             // 
             // label1
             // 
@@ -155,8 +155,10 @@ namespace BoulderMichigan
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
             this.richTextBox2.Location = new System.Drawing.Point(854, 492);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(349, 55);
             this.richTextBox2.TabIndex = 48;
+            this.richTextBox2.TabStop = false;
             this.richTextBox2.Text = "$20 per person per day ";
             // 
             // richTextBox1
@@ -167,8 +169,10 @@ namespace BoulderMichigan
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(846, 311);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(357, 43);
             this.richTextBox1.TabIndex = 47;
+            this.richTextBox1.TabStop = false;
             this.richTextBox1.Text = "$25 per person per day";
             // 
             // frm_GroupRates
