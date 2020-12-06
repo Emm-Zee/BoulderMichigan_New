@@ -50,7 +50,6 @@ namespace BoulderMichigan
             this.lbl_FirstName = new System.Windows.Forms.Label();
             this.btn_MonthlyFitnessLabMembership = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -108,7 +107,7 @@ namespace BoulderMichigan
             // 
             this.lbl_Email.AutoSize = true;
             this.lbl_Email.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Email.Location = new System.Drawing.Point(643, 558);
+            this.lbl_Email.Location = new System.Drawing.Point(659, 558);
             this.lbl_Email.Name = "lbl_Email";
             this.lbl_Email.Size = new System.Drawing.Size(90, 30);
             this.lbl_Email.TabIndex = 50;
@@ -294,17 +293,6 @@ namespace BoulderMichigan
             this.textBox1.Text = "Your membership will be valid for one month from the date you join";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(659, 557);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 30);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "Email";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -333,7 +321,6 @@ namespace BoulderMichigan
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1665, 1032);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox1);
@@ -390,7 +377,6 @@ namespace BoulderMichigan
         private System.Windows.Forms.Label lbl_FirstName;
         private System.Windows.Forms.Button btn_MonthlyFitnessLabMembership;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
     }
