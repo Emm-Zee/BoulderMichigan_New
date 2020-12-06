@@ -10,12 +10,12 @@ using System.IO;
 //________________________________________________________________________________________
 //
 //Title: Boulder Michigan
-//Application Type: Console
+//Application Type: .Net Framework
 //Description: Have people view services and book visits, classes, and memberships at an 
 //             indoor climbing()facility
 //Author: Emily Crull
 //Date Created: November 22, 2020
-//Last Modified:
+//Last Modified: December 5, 2020
 //________________________________________________________________________________________
 //________________________________________________________________________________________
 //
