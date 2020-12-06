@@ -365,9 +365,9 @@ namespace BoulderMichigan
             this.textBox_Total.BackColor = System.Drawing.Color.DimGray;
             this.textBox_Total.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Total.Location = new System.Drawing.Point(952, 820);
+            this.textBox_Total.Location = new System.Drawing.Point(951, 810);
             this.textBox_Total.Name = "textBox_Total";
-            this.textBox_Total.Size = new System.Drawing.Size(172, 42);
+            this.textBox_Total.Size = new System.Drawing.Size(209, 42);
             this.textBox_Total.TabIndex = 140;
             // 
             // frm_CouplesBoulderDayPass

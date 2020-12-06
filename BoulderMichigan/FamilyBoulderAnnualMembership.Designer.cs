@@ -363,7 +363,7 @@ namespace BoulderMichigan
             this.pnl_FiveFamilyMember2.Controls.Add(this.label22);
             this.pnl_FiveFamilyMember2.Location = new System.Drawing.Point(410, 527);
             this.pnl_FiveFamilyMember2.Name = "pnl_FiveFamilyMember2";
-            this.pnl_FiveFamilyMember2.Size = new System.Drawing.Size(1251, 10);
+            this.pnl_FiveFamilyMember2.Size = new System.Drawing.Size(1251, 0);
             this.pnl_FiveFamilyMember2.TabIndex = 164;
             // 
             // textBox_5FamilyMemberTotal
@@ -374,7 +374,7 @@ namespace BoulderMichigan
             this.textBox_5FamilyMemberTotal.Location = new System.Drawing.Point(577, 403);
             this.textBox_5FamilyMemberTotal.Name = "textBox_5FamilyMemberTotal";
             this.textBox_5FamilyMemberTotal.ReadOnly = true;
-            this.textBox_5FamilyMemberTotal.Size = new System.Drawing.Size(223, 42);
+            this.textBox_5FamilyMemberTotal.Size = new System.Drawing.Size(241, 42);
             this.textBox_5FamilyMemberTotal.TabIndex = 165;
             this.textBox_5FamilyMemberTotal.TabStop = false;
             // 

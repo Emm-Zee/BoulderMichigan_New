@@ -324,9 +324,9 @@ namespace BoulderMichigan
             this.textBox_Total.BackColor = System.Drawing.Color.DimGray;
             this.textBox_Total.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Total.Font = new System.Drawing.Font("OPTICopperplate-Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Total.Location = new System.Drawing.Point(843, 787);
+            this.textBox_Total.Location = new System.Drawing.Point(845, 787);
             this.textBox_Total.Name = "textBox_Total";
-            this.textBox_Total.Size = new System.Drawing.Size(172, 42);
+            this.textBox_Total.Size = new System.Drawing.Size(197, 42);
             this.textBox_Total.TabIndex = 118;
             this.textBox_Total.TabStop = false;
             // 

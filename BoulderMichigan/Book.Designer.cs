@@ -270,7 +270,7 @@ namespace BoulderMichigan
             this.btn_IndivAnnualMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_IndivAnnualMembership.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_IndivAnnualMembership.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_IndivAnnualMembership.Location = new System.Drawing.Point(0, 334);
+            this.btn_IndivAnnualMembership.Location = new System.Drawing.Point(0, 330);
             this.btn_IndivAnnualMembership.Margin = new System.Windows.Forms.Padding(0);
             this.btn_IndivAnnualMembership.Name = "btn_IndivAnnualMembership";
             this.btn_IndivAnnualMembership.Size = new System.Drawing.Size(334, 100);
@@ -289,7 +289,7 @@ namespace BoulderMichigan
             this.btn_MonthlyMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MonthlyMembership.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_MonthlyMembership.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_MonthlyMembership.Location = new System.Drawing.Point(0, 226);
+            this.btn_MonthlyMembership.Location = new System.Drawing.Point(0, 222);
             this.btn_MonthlyMembership.Margin = new System.Windows.Forms.Padding(0);
             this.btn_MonthlyMembership.Name = "btn_MonthlyMembership";
             this.btn_MonthlyMembership.Size = new System.Drawing.Size(334, 100);
@@ -308,7 +308,7 @@ namespace BoulderMichigan
             this.btn_TenPassBundle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TenPassBundle.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TenPassBundle.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_TenPassBundle.Location = new System.Drawing.Point(0, 115);
+            this.btn_TenPassBundle.Location = new System.Drawing.Point(0, 113);
             this.btn_TenPassBundle.Margin = new System.Windows.Forms.Padding(0);
             this.btn_TenPassBundle.Name = "btn_TenPassBundle";
             this.btn_TenPassBundle.Size = new System.Drawing.Size(334, 101);
@@ -430,7 +430,7 @@ namespace BoulderMichigan
             this.btn_FamilyAnnual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FamilyAnnual.Font = new System.Drawing.Font("OPTICopperplate-Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_FamilyAnnual.ForeColor = System.Drawing.Color.DimGray;
-            this.btn_FamilyAnnual.Location = new System.Drawing.Point(0, 113);
+            this.btn_FamilyAnnual.Location = new System.Drawing.Point(0, 114);
             this.btn_FamilyAnnual.Margin = new System.Windows.Forms.Padding(0);
             this.btn_FamilyAnnual.Name = "btn_FamilyAnnual";
             this.btn_FamilyAnnual.Size = new System.Drawing.Size(334, 100);
